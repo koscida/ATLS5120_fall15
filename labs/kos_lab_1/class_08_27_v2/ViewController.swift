@@ -159,7 +159,7 @@ class ViewController: UIViewController {
         }
         
         // change label text colors
-        for view1 in theScrollView.subviews as [UIView] {
+        for view1 in theScrollView.subviews as! [UIView] {
             if let lbl = view1 as? UILabel {
                 lbl.textColor = labelColor
             }

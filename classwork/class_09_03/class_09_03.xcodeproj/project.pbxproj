@@ -409,6 +409,7 @@
 				03F8033D1B98AD1600A5A7FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03F8033E1B98AD1600A5A7FA /* Build configuration list for PBXNativeTarget "class_09_03Tests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +418,7 @@
 				03F803401B98AD1600A5A7FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

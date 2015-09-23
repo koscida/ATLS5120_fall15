@@ -17,8 +17,8 @@ class CourseListViewController: UITableViewController {
     var newCourseNumeric: Float = 0.0
     
     var courses = [
-        ["Mobile App Development", true, 3.0, "A-", 3.7],
-        ["Course Name", false, 3.0, "B-", 2.7]
+        ["Mobile App Development", true, 3.0, "", 3.7],
+        ["Course Name", false, 3.0, "A-", 2.7]
     ]
     let simpleTableIdentifier = "courseCell"
     
@@ -35,7 +35,8 @@ class CourseListViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        let nib = UINib(nibName: "CourseCell", bundle: nil)
+        tableView.registerNib(nib, forCellReuseIdentifier: simpleTableIdentifier)
         
         nf.numberStyle = .DecimalStyle
         updateGPA()
@@ -57,14 +58,20 @@ class CourseListViewController: UITableViewController {
     }
 
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        var cell = tableView.dequeueReusableCellWithIdentifier(simpleTableIdentifier) as? UITableViewCell
+        var cell = tableView.dequeueReusableCellWithIdentifier(simpleTableIdentifier) as? CourseCellTableViewCell
         
         //if (cell == nil) {
-            cell = UITableViewCell(style: UITableViewCellStyle.Value1, reuseIdentifier: simpleTableIdentifier)
+            //cell = UITableViewCell(style: UITableViewCellStyle.Value1, reuseIdentifier: simpleTableIdentifier)
         //}
         
-        cell!.textLabel!.text = courses[indexPath.row][0] as? String
-        cell!.detailTextLabel?.text = courses[indexPath.row][3] as? String
+        //cell!.textLabel!.text = courses[indexPath.row][0] as? String
+        //cell!.detailTextLabel?.text = courses[indexPath.row][3] as? String
+        
+        cell?.name = (courses[indexPath.row][0] as? String)!
+        cell?.credits = nf.stringFromNumber((courses[indexPath.row][2] as? Float)!)!
+        cell?.grade = (courses[indexPath.row][3] as? String)!
+        cell?.enrolled = ((courses[indexPath.row][1] as? Bool)!) ? "Currently Enrolled" : "Already Taken"
+        
 
         return cell!
     }
@@ -95,8 +102,10 @@ class CourseListViewController: UITableViewController {
     func updateGPA() {
         
         for(var i=0; i<courses.count; i++) {
-            totalCredits += courses[i][2] as! Float
-            totalCreditGrades += ((courses[i][2] as! Float) * (courses[i][4] as! Float))
+            if(!(courses[i][1] as! Bool)) {
+                totalCredits += courses[i][2] as! Float
+                totalCreditGrades += ((courses[i][2] as! Float) * (courses[i][4] as! Float))
+            }
         }
         
         creditsLabel.text = nf.stringFromNumber(totalCredits)

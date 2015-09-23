@@ -22,6 +22,9 @@ class CourseDetailViewController: UIViewController {
     @IBOutlet weak var credits: UITextField!
     @IBOutlet weak var letterGrade: UITextField!
     @IBOutlet weak var numGrade: UITextField!
+    @IBOutlet weak var creditLabel: UILabel!
+    @IBOutlet weak var letGradeLabel: UILabel!
+    @IBOutlet weak var numGradeLabel: UILabel!
     
     // switch "currently enrolled"
     @IBAction func switchEnrollment(sender: UISwitch) {
@@ -29,11 +32,16 @@ class CourseDetailViewController: UIViewController {
             credits.enabled = false
             letterGrade.enabled = false
             numGrade.enabled = false
+            creditLabel.enabled = false
+            letGradeLabel.enabled = false
+            numGradeLabel.enabled = false
         } else {
             credits.enabled = true
             letterGrade.enabled = true
             numGrade.enabled = true
-
+            creditLabel.enabled = true
+            letGradeLabel.enabled = true
+            numGradeLabel.enabled = true
         }
     }
    
@@ -138,7 +146,41 @@ class CourseDetailViewController: UIViewController {
 
     
     // MARK: - Navigation
-
+    
+    override func shouldPerformSegueWithIdentifier(identifier: String!, sender: AnyObject!) -> Bool {
+        
+        if identifier == "doneSegue" {
+            
+            if (courseTitle.text.isEmpty ||
+                (!enrolledSwitch.on && (credits.text.isEmpty || letterGrade.text.isEmpty || numGrade.text.isEmpty))
+                
+            ) {
+                
+                let alert = UIAlertView()
+                alert.title = "Error"
+                alert.message = "Please fill out all text fields"
+                alert.addButtonWithTitle("Ok")
+                alert.show()
+                
+                return false
+            }
+                
+            else {
+                name = courseTitle.text
+                enrol = enrolledSwitch.on
+                cred = (credits.text as NSString).floatValue
+                lett = letterGrade.text
+                num = (numGrade.text as NSString).floatValue
+                
+                return true
+            }
+        }
+        
+        // by default, transition
+        return true
+    }
+    
+    /*
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "doneSegue" {
             name = courseTitle.text
@@ -148,7 +190,7 @@ class CourseDetailViewController: UIViewController {
             num = (numGrade.text as NSString).floatValue
         }
     }
-    
+    */
     
     
     

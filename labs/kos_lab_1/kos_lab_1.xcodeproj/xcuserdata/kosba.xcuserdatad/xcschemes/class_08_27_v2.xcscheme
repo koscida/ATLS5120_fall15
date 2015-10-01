@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0331F8BA1B8F704C0033E7D3"
-               BuildableName = "kos_lab_1.app"
+               BuildableName = "Kos Lab 1.app"
                BlueprintName = "kos_lab_1"
                ReferencedContainer = "container:kos_lab_1.xcodeproj">
             </BuildableReference>
@@ -57,7 +57,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0331F8BA1B8F704C0033E7D3"
-            BuildableName = "kos_lab_1.app"
+            BuildableName = "Kos Lab 1.app"
             BlueprintName = "kos_lab_1"
             ReferencedContainer = "container:kos_lab_1.xcodeproj">
          </BuildableReference>
@@ -72,11 +72,12 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0331F8BA1B8F704C0033E7D3"
-            BuildableName = "kos_lab_1.app"
+            BuildableName = "Kos Lab 1.app"
             BlueprintName = "kos_lab_1"
             ReferencedContainer = "container:kos_lab_1.xcodeproj">
          </BuildableReference>
@@ -90,11 +91,12 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0331F8BA1B8F704C0033E7D3"
-            BuildableName = "kos_lab_1.app"
+            BuildableName = "Kos Lab 1.app"
             BlueprintName = "kos_lab_1"
             ReferencedContainer = "container:kos_lab_1.xcodeproj">
          </BuildableReference>

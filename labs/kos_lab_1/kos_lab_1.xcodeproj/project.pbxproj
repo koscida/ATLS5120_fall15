@@ -33,7 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0331F8BB1B8F704C0033E7D3 /* kos_lab_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kos_lab_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0331F8BB1B8F704C0033E7D3 /* Kos Lab 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kos Lab 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0331F8BF1B8F704C0033E7D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0331F8C01B8F704C0033E7D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0331F8C21B8F704C0033E7D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -91,7 +91,7 @@
 		0331F8BC1B8F704C0033E7D3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0331F8BB1B8F704C0033E7D3 /* kos_lab_1.app */,
+				0331F8BB1B8F704C0033E7D3 /* Kos Lab 1.app */,
 				0331F8D01B8F704C0033E7D3 /* kos_lab_1Tests.xctest */,
 				03CF2AA01B8F9902005A3E75 /* new_target.app */,
 				03CF2AB41B8F9902005A3E75 /* new_targetTests.xctest */,
@@ -156,7 +156,7 @@
 			);
 			name = kos_lab_1;
 			productName = class_08_27_v2;
-			productReference = 0331F8BB1B8F704C0033E7D3 /* kos_lab_1.app */;
+			productReference = 0331F8BB1B8F704C0033E7D3 /* Kos Lab 1.app */;
 			productType = "com.apple.product-type.application";
 		};
 		0331F8CF1B8F704C0033E7D3 /* kos_lab_1Tests */ = {
@@ -446,7 +446,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = class_08_27_v2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = kos_lab_1;
+				PRODUCT_NAME = "Kos Lab 1";
 			};
 			name = Debug;
 		};
@@ -456,7 +456,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = class_08_27_v2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = kos_lab_1;
+				PRODUCT_NAME = "Kos Lab 1";
 			};
 			name = Release;
 		};

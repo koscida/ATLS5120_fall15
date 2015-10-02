@@ -29,7 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		036D81191BB1E570000D6EA6 /* class_09_22.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = class_09_22.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		036D81191BB1E570000D6EA6 /* Kos Lab 3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kos Lab 3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		036D811D1BB1E570000D6EA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		036D811E1BB1E570000D6EA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		036D81231BB1E570000D6EA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -74,7 +74,7 @@
 		036D811A1BB1E570000D6EA6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				036D81191BB1E570000D6EA6 /* class_09_22.app */,
+				036D81191BB1E570000D6EA6 /* Kos Lab 3.app */,
 				036D812E1BB1E570000D6EA6 /* class_09_22Tests.xctest */,
 			);
 			name = Products;
@@ -138,7 +138,7 @@
 			);
 			name = class_09_22;
 			productName = class_09_22;
-			productReference = 036D81191BB1E570000D6EA6 /* class_09_22.app */;
+			productReference = 036D81191BB1E570000D6EA6 /* Kos Lab 3.app */;
 			productType = "com.apple.product-type.application";
 		};
 		036D812D1BB1E570000D6EA6 /* class_09_22Tests */ = {
@@ -354,7 +354,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = class_09_22/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Kos Lab 3";
 			};
 			name = Debug;
 		};
@@ -364,7 +364,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = class_09_22/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Kos Lab 3";
 			};
 			name = Release;
 		};

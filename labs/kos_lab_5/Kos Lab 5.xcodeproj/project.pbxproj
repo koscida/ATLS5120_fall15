@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		035ADF2B1BCDDA0500743FEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035ADF2A1BCDDA0500743FEB /* AppDelegate.swift */; };
+		035ADF2D1BCDDA0500743FEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035ADF2C1BCDDA0500743FEB /* ViewController.swift */; };
+		035ADF301BCDDA0500743FEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 035ADF2E1BCDDA0500743FEB /* Main.storyboard */; };
+		035ADF321BCDDA0500743FEB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 035ADF311BCDDA0500743FEB /* Images.xcassets */; };
+		035ADF351BCDDA0500743FEB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 035ADF331BCDDA0500743FEB /* LaunchScreen.xib */; };
+		035ADF411BCDDA0500743FEB /* Kos_Lab_5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035ADF401BCDDA0500743FEB /* Kos_Lab_5Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		035ADF3B1BCDDA0500743FEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 035ADF1D1BCDDA0500743FEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 035ADF241BCDDA0500743FEB;
+			remoteInfo = "Kos Lab 5";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		035ADF251BCDDA0500743FEB /* Kos Lab 5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kos Lab 5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		035ADF291BCDDA0500743FEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		035ADF2A1BCDDA0500743FEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		035ADF2C1BCDDA0500743FEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		035ADF2F1BCDDA0500743FEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		035ADF311BCDDA0500743FEB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		035ADF341BCDDA0500743FEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		035ADF3A1BCDDA0500743FEB /* Kos Lab 5Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kos Lab 5Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		035ADF3F1BCDDA0500743FEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		035ADF401BCDDA0500743FEB /* Kos_Lab_5Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kos_Lab_5Tests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		035ADF221BCDDA0500743FEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		035ADF371BCDDA0500743FEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		035ADF1C1BCDDA0400743FEB = {
+			isa = PBXGroup;
+			children = (
+				035ADF271BCDDA0500743FEB /* Kos Lab 5 */,
+				035ADF3D1BCDDA0500743FEB /* Kos Lab 5Tests */,
+				035ADF261BCDDA0500743FEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		035ADF261BCDDA0500743FEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				035ADF251BCDDA0500743FEB /* Kos Lab 5.app */,
+				035ADF3A1BCDDA0500743FEB /* Kos Lab 5Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		035ADF271BCDDA0500743FEB /* Kos Lab 5 */ = {
+			isa = PBXGroup;
+			children = (
+				035ADF2A1BCDDA0500743FEB /* AppDelegate.swift */,
+				035ADF2C1BCDDA0500743FEB /* ViewController.swift */,
+				035ADF311BCDDA0500743FEB /* Images.xcassets */,
+				035ADF331BCDDA0500743FEB /* LaunchScreen.xib */,
+				035ADF2E1BCDDA0500743FEB /* Main.storyboard */,
+				035ADF281BCDDA0500743FEB /* Supporting Files */,
+			);
+			path = "Kos Lab 5";
+			sourceTree = "<group>";
+		};
+		035ADF281BCDDA0500743FEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				035ADF291BCDDA0500743FEB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		035ADF3D1BCDDA0500743FEB /* Kos Lab 5Tests */ = {
+			isa = PBXGroup;
+			children = (
+				035ADF401BCDDA0500743FEB /* Kos_Lab_5Tests.swift */,
+				035ADF3E1BCDDA0500743FEB /* Supporting Files */,
+			);
+			path = "Kos Lab 5Tests";
+			sourceTree = "<group>";
+		};
+		035ADF3E1BCDDA0500743FEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				035ADF3F1BCDDA0500743FEB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		035ADF241BCDDA0500743FEB /* Kos Lab 5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 035ADF441BCDDA0500743FEB /* Build configuration list for PBXNativeTarget "Kos Lab 5" */;
+			buildPhases = (
+				035ADF211BCDDA0500743FEB /* Sources */,
+				035ADF221BCDDA0500743FEB /* Frameworks */,
+				035ADF231BCDDA0500743FEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kos Lab 5";
+			productName = "Kos Lab 5";
+			productReference = 035ADF251BCDDA0500743FEB /* Kos Lab 5.app */;
+			productType = "com.apple.product-type.application";
+		};
+		035ADF391BCDDA0500743FEB /* Kos Lab 5Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 035ADF471BCDDA0500743FEB /* Build configuration list for PBXNativeTarget "Kos Lab 5Tests" */;
+			buildPhases = (
+				035ADF361BCDDA0500743FEB /* Sources */,
+				035ADF371BCDDA0500743FEB /* Frameworks */,
+				035ADF381BCDDA0500743FEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				035ADF3C1BCDDA0500743FEB /* PBXTargetDependency */,
+			);
+			name = "Kos Lab 5Tests";
+			productName = "Kos Lab 5Tests";
+			productReference = 035ADF3A1BCDDA0500743FEB /* Kos Lab 5Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		035ADF1D1BCDDA0500743FEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Kode Studios";
+				TargetAttributes = {
+					035ADF241BCDDA0500743FEB = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					035ADF391BCDDA0500743FEB = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 035ADF241BCDDA0500743FEB;
+					};
+				};
+			};
+			buildConfigurationList = 035ADF201BCDDA0500743FEB /* Build configuration list for PBXProject "Kos Lab 5" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 035ADF1C1BCDDA0400743FEB;
+			productRefGroup = 035ADF261BCDDA0500743FEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				035ADF241BCDDA0500743FEB /* Kos Lab 5 */,
+				035ADF391BCDDA0500743FEB /* Kos Lab 5Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		035ADF231BCDDA0500743FEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				035ADF301BCDDA0500743FEB /* Main.storyboard in Resources */,
+				035ADF351BCDDA0500743FEB /* LaunchScreen.xib in Resources */,
+				035ADF321BCDDA0500743FEB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		035ADF381BCDDA0500743FEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		035ADF211BCDDA0500743FEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				035ADF2D1BCDDA0500743FEB /* ViewController.swift in Sources */,
+				035ADF2B1BCDDA0500743FEB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		035ADF361BCDDA0500743FEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				035ADF411BCDDA0500743FEB /* Kos_Lab_5Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		035ADF3C1BCDDA0500743FEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 035ADF241BCDDA0500743FEB /* Kos Lab 5 */;
+			targetProxy = 035ADF3B1BCDDA0500743FEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		035ADF2E1BCDDA0500743FEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				035ADF2F1BCDDA0500743FEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		035ADF331BCDDA0500743FEB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				035ADF341BCDDA0500743FEB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		035ADF421BCDDA0500743FEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		035ADF431BCDDA0500743FEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		035ADF451BCDDA0500743FEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Kos Lab 5/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		035ADF461BCDDA0500743FEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Kos Lab 5/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		035ADF481BCDDA0500743FEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Kos Lab 5Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kos Lab 5.app/Kos Lab 5";
+			};
+			name = Debug;
+		};
+		035ADF491BCDDA0500743FEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Kos Lab 5Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kos Lab 5.app/Kos Lab 5";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		035ADF201BCDDA0500743FEB /* Build configuration list for PBXProject "Kos Lab 5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				035ADF421BCDDA0500743FEB /* Debug */,
+				035ADF431BCDDA0500743FEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		035ADF441BCDDA0500743FEB /* Build configuration list for PBXNativeTarget "Kos Lab 5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				035ADF451BCDDA0500743FEB /* Debug */,
+				035ADF461BCDDA0500743FEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		035ADF471BCDDA0500743FEB /* Build configuration list for PBXNativeTarget "Kos Lab 5Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				035ADF481BCDDA0500743FEB /* Debug */,
+				035ADF491BCDDA0500743FEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 035ADF1D1BCDDA0500743FEB /* Project object */;
+}

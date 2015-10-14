@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Kos_Lab_5" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="TMM-32-Kel">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="520"/>
+                            </mapView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="6MS-Ez-rd5">
+                                <rect key="frame" x="100" y="528" width="484" height="29"/>
+                                <segments>
+                                    <segment title="Preset"/>
+                                    <segment title="Current"/>
+                                </segments>
+                                <connections>
+                                    <action selector="changeLocation:" destination="vXZ-lx-hvc" eventType="valueChanged" id="PTp-vx-JlW"/>
+                                </connections>
+                            </segmentedControl>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location: " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mad-FO-h0k">
+                                <rect key="frame" x="16" y="528" width="76" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="76" id="GRe-kh-95H"/>
+                                    <constraint firstAttribute="height" constant="28" id="saK-cX-VhC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Favorite: " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EkX-4K-Wgg">
+                                <rect key="frame" x="16" y="564" width="76" height="28"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="hVh-Lf-ibU">
+                                <rect key="frame" x="100" y="564" width="484" height="29"/>
+                                <segments>
+                                    <segment title="Eating"/>
+                                    <segment title="Shopping"/>
+                                </segments>
+                                <connections>
+                                    <action selector="changePlace:" destination="vXZ-lx-hvc" eventType="valueChanged" id="rM1-mf-KfO"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="hVh-Lf-ibU" firstAttribute="top" secondItem="6MS-Ez-rd5" secondAttribute="bottom" constant="8" id="2Pr-H8-NXv"/>
+                            <constraint firstItem="EkX-4K-Wgg" firstAttribute="height" secondItem="Mad-FO-h0k" secondAttribute="height" id="2fK-4h-aNe"/>
+                            <constraint firstItem="TMM-32-Kel" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="6m5-b0-gMu"/>
+                            <constraint firstItem="EkX-4K-Wgg" firstAttribute="top" secondItem="Mad-FO-h0k" secondAttribute="bottom" constant="8" id="AZ7-uu-cTx"/>
+                            <constraint firstItem="6MS-Ez-rd5" firstAttribute="top" secondItem="TMM-32-Kel" secondAttribute="bottom" constant="8" id="Igj-7g-OXZ"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="EkX-4K-Wgg" secondAttribute="bottom" constant="8" id="PoZ-ez-86o"/>
+                            <constraint firstItem="EkX-4K-Wgg" firstAttribute="width" secondItem="Mad-FO-h0k" secondAttribute="width" id="WFH-iz-Vbb"/>
+                            <constraint firstItem="EkX-4K-Wgg" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="Wb3-xE-Qch"/>
+                            <constraint firstItem="TMM-32-Kel" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="topMargin" id="YI1-Cg-qTk"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="TMM-32-Kel" secondAttribute="trailing" constant="-16" id="ZhJ-H9-Irs"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="hVh-Lf-ibU" secondAttribute="bottom" constant="8" id="cXb-nn-KBB"/>
+                            <constraint firstItem="6MS-Ez-rd5" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="gN4-P4-yJg"/>
+                            <constraint firstItem="6MS-Ez-rd5" firstAttribute="width" secondItem="hVh-Lf-ibU" secondAttribute="width" id="hiH-2i-EKf"/>
+                            <constraint firstItem="hVh-Lf-ibU" firstAttribute="leading" secondItem="EkX-4K-Wgg" secondAttribute="trailing" constant="8" id="hrU-JM-0XS"/>
+                            <constraint firstItem="hVh-Lf-ibU" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="lU6-FH-ZWO"/>
+                            <constraint firstItem="Mad-FO-h0k" firstAttribute="top" secondItem="TMM-32-Kel" secondAttribute="bottom" constant="8" id="nCd-er-D6t"/>
+                            <constraint firstItem="Mad-FO-h0k" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="pgv-wp-lFG"/>
+                            <constraint firstItem="6MS-Ez-rd5" firstAttribute="leading" secondItem="Mad-FO-h0k" secondAttribute="trailing" constant="8" id="rzc-cc-6kU"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="locationSetting" destination="6MS-Ez-rd5" id="zdy-dW-IdH"/>
+                        <outlet property="mapView" destination="TMM-32-Kel" id="cGF-9v-4Az"/>
+                        <outlet property="placeSetting" destination="hVh-Lf-ibU" id="C4b-pi-xWG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

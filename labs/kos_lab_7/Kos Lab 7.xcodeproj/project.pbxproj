@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		035ADF5F1BD01D0A00743FEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035ADF5E1BD01D0A00743FEB /* AppDelegate.swift */; };
+		035ADF611BD01D0A00743FEB /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035ADF601BD01D0A00743FEB /* MasterViewController.swift */; };
+		035ADF631BD01D0A00743FEB /* NewDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035ADF621BD01D0A00743FEB /* NewDetailViewController.swift */; };
+		035ADF661BD01D0A00743FEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 035ADF641BD01D0A00743FEB /* Main.storyboard */; };
+		035ADF681BD01D0A00743FEB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 035ADF671BD01D0A00743FEB /* Images.xcassets */; };
+		035ADF6B1BD01D0A00743FEB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 035ADF691BD01D0A00743FEB /* LaunchScreen.xib */; };
+		035ADF771BD01D0A00743FEB /* Kos_Lab_7Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035ADF761BD01D0A00743FEB /* Kos_Lab_7Tests.swift */; };
+		035ADF811BD0207800743FEB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035ADF801BD0207800743FEB /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		035ADF711BD01D0A00743FEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 035ADF511BD01D0900743FEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 035ADF581BD01D0900743FEB;
+			remoteInfo = "Kos Lab 7";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		035ADF591BD01D0900743FEB /* Kos Lab 7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kos Lab 7.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		035ADF5D1BD01D0A00743FEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		035ADF5E1BD01D0A00743FEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		035ADF601BD01D0A00743FEB /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		035ADF621BD01D0A00743FEB /* NewDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDetailViewController.swift; sourceTree = "<group>"; };
+		035ADF651BD01D0A00743FEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		035ADF671BD01D0A00743FEB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		035ADF6A1BD01D0A00743FEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		035ADF701BD01D0A00743FEB /* Kos Lab 7Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kos Lab 7Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		035ADF751BD01D0A00743FEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		035ADF761BD01D0A00743FEB /* Kos_Lab_7Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kos_Lab_7Tests.swift; sourceTree = "<group>"; };
+		035ADF801BD0207800743FEB /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		035ADF561BD01D0900743FEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		035ADF6D1BD01D0A00743FEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		035ADF501BD01D0900743FEB = {
+			isa = PBXGroup;
+			children = (
+				035ADF5B1BD01D0900743FEB /* Kos Lab 7 */,
+				035ADF731BD01D0A00743FEB /* Kos Lab 7Tests */,
+				035ADF5A1BD01D0900743FEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		035ADF5A1BD01D0900743FEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				035ADF591BD01D0900743FEB /* Kos Lab 7.app */,
+				035ADF701BD01D0A00743FEB /* Kos Lab 7Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		035ADF5B1BD01D0900743FEB /* Kos Lab 7 */ = {
+			isa = PBXGroup;
+			children = (
+				035ADF5E1BD01D0A00743FEB /* AppDelegate.swift */,
+				035ADF801BD0207800743FEB /* DetailViewController.swift */,
+				035ADF601BD01D0A00743FEB /* MasterViewController.swift */,
+				035ADF621BD01D0A00743FEB /* NewDetailViewController.swift */,
+				035ADF671BD01D0A00743FEB /* Images.xcassets */,
+				035ADF691BD01D0A00743FEB /* LaunchScreen.xib */,
+				035ADF641BD01D0A00743FEB /* Main.storyboard */,
+				035ADF5C1BD01D0900743FEB /* Supporting Files */,
+			);
+			path = "Kos Lab 7";
+			sourceTree = "<group>";
+		};
+		035ADF5C1BD01D0900743FEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				035ADF5D1BD01D0A00743FEB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		035ADF731BD01D0A00743FEB /* Kos Lab 7Tests */ = {
+			isa = PBXGroup;
+			children = (
+				035ADF761BD01D0A00743FEB /* Kos_Lab_7Tests.swift */,
+				035ADF741BD01D0A00743FEB /* Supporting Files */,
+			);
+			path = "Kos Lab 7Tests";
+			sourceTree = "<group>";
+		};
+		035ADF741BD01D0A00743FEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				035ADF751BD01D0A00743FEB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		035ADF581BD01D0900743FEB /* Kos Lab 7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 035ADF7A1BD01D0A00743FEB /* Build configuration list for PBXNativeTarget "Kos Lab 7" */;
+			buildPhases = (
+				035ADF551BD01D0900743FEB /* Sources */,
+				035ADF561BD01D0900743FEB /* Frameworks */,
+				035ADF571BD01D0900743FEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kos Lab 7";
+			productName = "Kos Lab 7";
+			productReference = 035ADF591BD01D0900743FEB /* Kos Lab 7.app */;
+			productType = "com.apple.product-type.application";
+		};
+		035ADF6F1BD01D0A00743FEB /* Kos Lab 7Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 035ADF7D1BD01D0A00743FEB /* Build configuration list for PBXNativeTarget "Kos Lab 7Tests" */;
+			buildPhases = (
+				035ADF6C1BD01D0A00743FEB /* Sources */,
+				035ADF6D1BD01D0A00743FEB /* Frameworks */,
+				035ADF6E1BD01D0A00743FEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				035ADF721BD01D0A00743FEB /* PBXTargetDependency */,
+			);
+			name = "Kos Lab 7Tests";
+			productName = "Kos Lab 7Tests";
+			productReference = 035ADF701BD01D0A00743FEB /* Kos Lab 7Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		035ADF511BD01D0900743FEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Kode Studios";
+				TargetAttributes = {
+					035ADF581BD01D0900743FEB = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					035ADF6F1BD01D0A00743FEB = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 035ADF581BD01D0900743FEB;
+					};
+				};
+			};
+			buildConfigurationList = 035ADF541BD01D0900743FEB /* Build configuration list for PBXProject "Kos Lab 7" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 035ADF501BD01D0900743FEB;
+			productRefGroup = 035ADF5A1BD01D0900743FEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				035ADF581BD01D0900743FEB /* Kos Lab 7 */,
+				035ADF6F1BD01D0A00743FEB /* Kos Lab 7Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		035ADF571BD01D0900743FEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				035ADF661BD01D0A00743FEB /* Main.storyboard in Resources */,
+				035ADF6B1BD01D0A00743FEB /* LaunchScreen.xib in Resources */,
+				035ADF681BD01D0A00743FEB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		035ADF6E1BD01D0A00743FEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		035ADF551BD01D0900743FEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				035ADF631BD01D0A00743FEB /* NewDetailViewController.swift in Sources */,
+				035ADF611BD01D0A00743FEB /* MasterViewController.swift in Sources */,
+				035ADF5F1BD01D0A00743FEB /* AppDelegate.swift in Sources */,
+				035ADF811BD0207800743FEB /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		035ADF6C1BD01D0A00743FEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				035ADF771BD01D0A00743FEB /* Kos_Lab_7Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		035ADF721BD01D0A00743FEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 035ADF581BD01D0900743FEB /* Kos Lab 7 */;
+			targetProxy = 035ADF711BD01D0A00743FEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		035ADF641BD01D0A00743FEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				035ADF651BD01D0A00743FEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		035ADF691BD01D0A00743FEB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				035ADF6A1BD01D0A00743FEB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		035ADF781BD01D0A00743FEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		035ADF791BD01D0A00743FEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		035ADF7B1BD01D0A00743FEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Kos Lab 7/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		035ADF7C1BD01D0A00743FEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Kos Lab 7/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		035ADF7E1BD01D0A00743FEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Kos Lab 7Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kos Lab 7.app/Kos Lab 7";
+			};
+			name = Debug;
+		};
+		035ADF7F1BD01D0A00743FEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Kos Lab 7Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kos Lab 7.app/Kos Lab 7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		035ADF541BD01D0900743FEB /* Build configuration list for PBXProject "Kos Lab 7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				035ADF781BD01D0A00743FEB /* Debug */,
+				035ADF791BD01D0A00743FEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		035ADF7A1BD01D0A00743FEB /* Build configuration list for PBXNativeTarget "Kos Lab 7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				035ADF7B1BD01D0A00743FEB /* Debug */,
+				035ADF7C1BD01D0A00743FEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		035ADF7D1BD01D0A00743FEB /* Build configuration list for PBXNativeTarget "Kos Lab 7Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				035ADF7E1BD01D0A00743FEB /* Debug */,
+				035ADF7F1BD01D0A00743FEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 035ADF511BD01D0900743FEB /* Project object */;
+}

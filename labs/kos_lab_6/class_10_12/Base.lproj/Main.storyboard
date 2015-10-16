@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="class_10_12" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="2gY-4T-aSX">
+                                <rect key="frame" x="235" y="235" width="130" height="130"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="130" id="EsN-6W-THA"/>
+                                    <constraint firstAttribute="width" constant="130" id="hss-WC-QrX"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="UTS-TA-tLE" appends="YES" id="92V-rw-U5C"/>
+                                    <outletCollection property="gestureRecognizers" destination="Qb1-RV-1Pi" appends="YES" id="aTR-eQ-y85"/>
+                                    <outletCollection property="gestureRecognizers" destination="uJH-4y-4S9" appends="YES" id="7gI-1Z-G4D"/>
+                                    <outletCollection property="gestureRecognizers" destination="V4H-CK-1hK" appends="YES" id="tg5-nv-Aa1"/>
+                                </connections>
+                            </imageView>
+                            <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="QS3-3z-Acy">
+                                <rect key="frame" x="235" y="28" width="130" height="130"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="130" id="1Lj-hi-2qJ"/>
+                                    <constraint firstAttribute="height" constant="130" id="alE-LC-SZC"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Wgj-zT-Gdv" appends="YES" id="XlI-gi-JTM"/>
+                                    <outletCollection property="gestureRecognizers" destination="WA4-Yu-Rm3" appends="YES" id="C5Q-6l-dvx"/>
+                                    <outletCollection property="gestureRecognizers" destination="mKW-e0-yc4" appends="YES" id="xxb-II-gaW"/>
+                                    <outletCollection property="gestureRecognizers" destination="uWx-CK-1fC" appends="YES" id="jtx-n6-IeB"/>
+                                </connections>
+                            </imageView>
+                            <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="pgO-Pj-DLL">
+                                <rect key="frame" x="235" y="450" width="130" height="130"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="130" id="4JZ-LG-AqB"/>
+                                    <constraint firstAttribute="width" constant="130" id="9Zx-L6-utB"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="jxp-xU-bnm" appends="YES" id="50m-ua-PCn"/>
+                                    <outletCollection property="gestureRecognizers" destination="a7C-8f-2YV" appends="YES" id="GQs-mA-sJQ"/>
+                                    <outletCollection property="gestureRecognizers" destination="eKe-Hy-MmY" appends="YES" id="ZS3-OG-D5K"/>
+                                    <outletCollection property="gestureRecognizers" destination="pGJ-5M-i7H" appends="YES" id="nGZ-VC-pR1"/>
+                                </connections>
+                            </imageView>
+                            <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="8RZ-jJ-vCh">
+                                <rect key="frame" x="454" y="235" width="130" height="130"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="130" id="cQF-wj-mBM"/>
+                                    <constraint firstAttribute="height" constant="130" id="oK2-Sg-ssx"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="7VA-hU-LrP" appends="YES" id="ggF-75-pqJ"/>
+                                    <outletCollection property="gestureRecognizers" destination="eYN-qU-1mY" appends="YES" id="wkZ-s8-bK9"/>
+                                    <outletCollection property="gestureRecognizers" destination="jaC-2s-a5i" appends="YES" id="3KD-im-hAB"/>
+                                    <outletCollection property="gestureRecognizers" destination="Oba-EP-xho" appends="YES" id="dKX-fO-p1M"/>
+                                </connections>
+                            </imageView>
+                            <imageView multipleTouchEnabled="YES" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="xkc-fm-D4L">
+                                <rect key="frame" x="16" y="235" width="130" height="130"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="130" id="Djb-3n-cEq"/>
+                                    <constraint firstAttribute="width" constant="130" id="WOn-SR-BOE"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Z44-b4-ijk" appends="YES" id="mO1-T3-iIQ"/>
+                                    <outletCollection property="gestureRecognizers" destination="b53-JA-MZB" appends="YES" id="bAr-dI-i00"/>
+                                    <outletCollection property="gestureRecognizers" destination="Ecn-ff-LMN" appends="YES" id="Htl-p9-roO"/>
+                                    <outletCollection property="gestureRecognizers" destination="ta1-av-dpH" appends="YES" id="Iiq-Wu-DgZ"/>
+                                </connections>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="2gY-4T-aSX" secondAttribute="centerY" id="8TL-gn-70v"/>
+                            <constraint firstItem="QS3-3z-Acy" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="8" id="ADK-dQ-5cK"/>
+                            <constraint firstAttribute="centerY" secondItem="8RZ-jJ-vCh" secondAttribute="centerY" id="AHs-BV-gfJ"/>
+                            <constraint firstItem="8RZ-jJ-vCh" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="GWh-xD-dRd"/>
+                            <constraint firstAttribute="centerX" secondItem="QS3-3z-Acy" secondAttribute="centerX" id="SD9-R4-yFy"/>
+                            <constraint firstAttribute="centerX" secondItem="2gY-4T-aSX" secondAttribute="centerX" id="W3N-nb-mQ2"/>
+                            <constraint firstItem="xkc-fm-D4L" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="Y3j-3W-jO5"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="pgO-Pj-DLL" secondAttribute="bottom" constant="20" id="eSE-pE-4Fv"/>
+                            <constraint firstAttribute="centerX" secondItem="pgO-Pj-DLL" secondAttribute="centerX" id="pjV-aa-H3L"/>
+                            <constraint firstAttribute="centerY" secondItem="xkc-fm-D4L" secondAttribute="centerY" id="xlQ-z2-a9v"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="star1" destination="2gY-4T-aSX" id="q9U-kI-xgR"/>
+                        <outlet property="star2" destination="QS3-3z-Acy" id="1R3-p9-3yi"/>
+                        <outlet property="star3" destination="8RZ-jJ-vCh" id="c2U-uZ-biO"/>
+                        <outlet property="star4" destination="pgO-Pj-DLL" id="55I-oX-wYE"/>
+                        <outlet property="star5" destination="xkc-fm-D4L" id="ffu-jX-cKQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="UTS-TA-tLE">
+                    <connections>
+                        <action selector="doPan:" destination="vXZ-lx-hvc" id="dwn-pD-PWo"/>
+                    </connections>
+                </panGestureRecognizer>
+                <pinchGestureRecognizer id="Qb1-RV-1Pi">
+                    <connections>
+                        <action selector="doPinch:" destination="vXZ-lx-hvc" id="cEE-MG-Ay4"/>
+                    </connections>
+                </pinchGestureRecognizer>
+                <rotationGestureRecognizer id="uJH-4y-4S9">
+                    <connections>
+                        <action selector="doRotate:" destination="vXZ-lx-hvc" id="QQi-xq-9HR"/>
+                    </connections>
+                </rotationGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="jxp-xU-bnm">
+                    <connections>
+                        <action selector="doPan:" destination="vXZ-lx-hvc" id="zNe-vf-6Jl"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="7VA-hU-LrP">
+                    <connections>
+                        <action selector="doPan:" destination="vXZ-lx-hvc" id="Dyl-F2-Vum"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="Wgj-zT-Gdv">
+                    <connections>
+                        <action selector="doPan:" destination="vXZ-lx-hvc" id="mi0-0s-TtT"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="Z44-b4-ijk">
+                    <connections>
+                        <action selector="doPan:" destination="vXZ-lx-hvc" id="FTb-Ve-sT1"/>
+                    </connections>
+                </panGestureRecognizer>
+                <pinchGestureRecognizer id="WA4-Yu-Rm3">
+                    <connections>
+                        <action selector="doPinch:" destination="vXZ-lx-hvc" id="tEG-Ln-wd0"/>
+                    </connections>
+                </pinchGestureRecognizer>
+                <pinchGestureRecognizer id="eYN-qU-1mY">
+                    <connections>
+                        <action selector="doPinch:" destination="vXZ-lx-hvc" id="emx-fd-SP3"/>
+                    </connections>
+                </pinchGestureRecognizer>
+                <pinchGestureRecognizer id="a7C-8f-2YV">
+                    <connections>
+                        <action selector="doPinch:" destination="vXZ-lx-hvc" id="HUl-XE-bGB"/>
+                    </connections>
+                </pinchGestureRecognizer>
+                <pinchGestureRecognizer id="b53-JA-MZB">
+                    <connections>
+                        <action selector="doPinch:" destination="vXZ-lx-hvc" id="fFg-Os-rUr"/>
+                    </connections>
+                </pinchGestureRecognizer>
+                <rotationGestureRecognizer id="mKW-e0-yc4">
+                    <connections>
+                        <action selector="doRotate:" destination="vXZ-lx-hvc" id="uXi-ad-CEa"/>
+                    </connections>
+                </rotationGestureRecognizer>
+                <rotationGestureRecognizer id="jaC-2s-a5i">
+                    <connections>
+                        <action selector="doRotate:" destination="vXZ-lx-hvc" id="d9O-z6-UkX"/>
+                    </connections>
+                </rotationGestureRecognizer>
+                <rotationGestureRecognizer id="eKe-Hy-MmY">
+                    <connections>
+                        <action selector="doRotate:" destination="vXZ-lx-hvc" id="tEr-6h-J2f"/>
+                    </connections>
+                </rotationGestureRecognizer>
+                <rotationGestureRecognizer id="Ecn-ff-LMN">
+                    <connections>
+                        <action selector="doRotate:" destination="vXZ-lx-hvc" id="HnX-hz-9s1"/>
+                    </connections>
+                </rotationGestureRecognizer>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="V4H-CK-1hK">
+                    <connections>
+                        <action selector="doLongPress:" destination="vXZ-lx-hvc" id="Z0w-VN-7Nb"/>
+                    </connections>
+                </pongPressGestureRecognizer>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="uWx-CK-1fC">
+                    <connections>
+                        <action selector="doLongPress:" destination="vXZ-lx-hvc" id="hru-yZ-LSP"/>
+                    </connections>
+                </pongPressGestureRecognizer>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="Oba-EP-xho">
+                    <connections>
+                        <action selector="doLongPress:" destination="vXZ-lx-hvc" id="pKz-hW-BaG"/>
+                    </connections>
+                </pongPressGestureRecognizer>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="pGJ-5M-i7H">
+                    <connections>
+                        <action selector="doLongPress:" destination="vXZ-lx-hvc" id="xaT-dR-QI9"/>
+                    </connections>
+                </pongPressGestureRecognizer>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="ta1-av-dpH">
+                    <connections>
+                        <action selector="doLongPress:" destination="vXZ-lx-hvc" id="7Ox-eZ-7bx"/>
+                    </connections>
+                </pongPressGestureRecognizer>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="star" width="141" height="136"/>
+    </resources>
+</document>

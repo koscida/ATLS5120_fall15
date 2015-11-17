@@ -168,7 +168,7 @@
             android:layout_height="wrap_content"
             android:paddingLeft="110dp"
             android:text="@string/mediate_switch"
-            android:id="@id/switch1"/>
+            android:id="@+id/switch1"/>
 
     </LinearLayout>
 
@@ -177,8 +177,8 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/button"
-        android:id="@id/button"
+        android:text="@string/mood_button"
+        android:id="@+id/button"
         android:layout_below="@+id/linear5"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="5dp"

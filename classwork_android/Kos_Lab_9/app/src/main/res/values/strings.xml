@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Karma</string>
+
+    <string name="name_edit">Type your name</string>
+
+    <string name="energyLabel">Energy</string>
+    <string name="toggle_on">Positive Pepper</string>
+    <string name="toggle_off">Negative Nancy</string>
+
+    <string name="yoga_text">Yoga</string>
+    <string name="yoga1_radio">Yin</string>
+    <string name="yoga2_radio">Bikram</string>
+    <string name="yoga3_radio">Hatha</string>
+
+    <string name="enlightened_check">Enlightened</string>
+    <string name="conservative_check">Conservative</string>
+    <string name="sarcastic_check">Sarcastic</string>
+    <string name="secretive_check">Secretive</string>
+
+    <string name="moodLabel">Mood</string>
+    <string-array name="moods">
+        <item>Happy</item>
+        <item>Sad</item>
+        <item>Confused</item>
+        <item>Angry</item>
+    </string-array>
+
+    <string name="meditateLabel">Meditate</string>
+
+    <string name="mood_image">Mood Image</string>
+    <string name="mood_button">Karma</string>
+    <string name="feeling">Your feelings</string>
+
+
+</resources>

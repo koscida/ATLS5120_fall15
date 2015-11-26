@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/fragment_search_page">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/grid_layout_horizontal_1_1">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:layout_margin="5dp"
+            android:id="@+id/buttonRestaurants"
+            android:focusable="true"
+            android:background="@drawable/graph"
+            android:onClick="searchPreWritten"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:layout_margin="5dp"
+            android:id="@+id/buttonBars"
+            android:focusable="true"
+            android:background="@drawable/graph"
+            android:onClick="searchPreWritten"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/grid_layout_horizontal_1_1"
+        android:id="@+id/grid_layout_horizontal_1_2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:layout_margin="5dp"
+            android:textAlignment="center"
+            android:id="@+id/buttonRestaurantLabel"
+            android:text="@string/buttonRestaurantLabel"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:layout_margin="5dp"
+            android:textAlignment="center"
+            android:id="@+id/buttonBarLabel"
+            android:text="@string/buttonBarLabel" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,128 +1,82 @@
 package kodestudios.safespace2;
 
-import android.content.Intent;
+import android.content.Context;
 import android.os.Bundle;
-import android.support.design.widget.NavigationView;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBarDrawerToggle;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
-import android.view.MenuItem;
+import android.view.LayoutInflater;
 import android.view.View;
-import android.widget.Toast;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 
-public class SearchResultsActivity extends AppCompatActivity {
+public class SearchResultsActivity extends BaseActivity {
 
-    public final static String EXTRA_MESSAGE = "com.kodestudios.safespace2.MESSAGE";
 
-    //Defining Variables
-    private Toolbar toolbar;
-    private NavigationView navigationView;
-    private DrawerLayout drawerLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_search_results);
 
-        // Set initial content to be content_main
-        ContentSearchResultsFragment fragment = new ContentSearchResultsFragment();
-        android.support.v4.app.FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
-        fragmentTransaction.replace(R.id.frame, fragment);
-        fragmentTransaction.commit();
-
-        Intent intent = getIntent();
-        String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
-
-        // Initializing Toolbar and setting it as the actionbar
-        toolbar = (Toolbar) findViewById(R.id.toolbar);
-        //setSupportActionBar(toolbar);
-
-        //Initializing NavigationView
-        navigationView = (NavigationView) findViewById(R.id.navigation_view);
-
-        //Setting Navigation View Item Selected Listener to handle the item click of the navigation menu
-        navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
-
-            // This method will trigger on item Click of navigation menu
-            @Override
-            public boolean onNavigationItemSelected(MenuItem menuItem) {
+        LayoutInflater inflater = (LayoutInflater) this.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        View contentView = inflater.inflate(R.layout.activity_search_results, null, false);
+        drawerLayout.addView(contentView, 0);
 
 
-                //Checking if the item is in checked state or not, if not make it in checked state
-                if(menuItem.isChecked()) menuItem.setChecked(false);
-                else menuItem.setChecked(true);
+        String[] testName = {"AAA", "BBB", "CCC", "DDD", "EEE"};
+        int[] testRating = {4, 3, 5, 3, 4};
+        double[] testDist = {0.3, 0.7, 0.9, 1.2, 1.4};
+        String[] testType = {"aaa", "bbb", "ccc", "ddd", "eee"};
+        String[] testImg = {"", "", "", "", ""};
+        int[] testID = {1, 2, 3, 4, 5};
 
-                //Closing drawer on item click
-                drawerLayout.closeDrawers();
+        for(int i=0; i<testName.length; i++) {
+            createListItem(testID[i], testName[i], testRating[i], testDist[i], testType[i], testImg[i]);
+        }
 
-                //Check to see which item was being clicked and perform appropriate action
-                switch (menuItem.getItemId()){
-
-
-                    //Replacing the main content with ContentMainFragment Which is our Inbox View;
-                    case R.id.user_settings:
-                        Toast.makeText(getApplicationContext(), "Inbox Selected", Toast.LENGTH_SHORT).show();
-                        ContentSearchResultsFragment fragment = new ContentSearchResultsFragment();
-                        android.support.v4.app.FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
-                        fragmentTransaction.replace(R.id.frame, fragment);
-                        fragmentTransaction.commit();
-                        return true;
-
-                    // For rest of the options we just show a toast on click
-                    /*
-                    case R.id.starred:
-                        Toast.makeText(getApplicationContext(),"Stared Selected",Toast.LENGTH_SHORT).show();
-                        return true;
-                    case R.id.sent_mail:
-                        Toast.makeText(getApplicationContext(),"Send Selected",Toast.LENGTH_SHORT).show();
-                        return true;
-                    case R.id.drafts:
-                        Toast.makeText(getApplicationContext(),"Drafts Selected",Toast.LENGTH_SHORT).show();
-                        return true;
-                    case R.id.allmail:
-                        Toast.makeText(getApplicationContext(),"All Mail Selected",Toast.LENGTH_SHORT).show();
-                        return true;
-                    case R.id.trash:
-                        Toast.makeText(getApplicationContext(),"Trash Selected",Toast.LENGTH_SHORT).show();
-                        return true;
-                    case R.id.spam:
-                        Toast.makeText(getApplicationContext(),"Spam Selected",Toast.LENGTH_SHORT).show();
-                        return true;
-                       */
-                    default:
-                        Toast.makeText(getApplicationContext(),"Somethings Wrong",Toast.LENGTH_SHORT).show();
-                        return true;
-
-                }
-            }
-        });
-
-        // Initializing Drawer Layout and ActionBarToggle
-        drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
-        ActionBarDrawerToggle actionBarDrawerToggle = new ActionBarDrawerToggle(this,drawerLayout,toolbar,R.string.drawer_open, R.string.drawer_close){
-
-            @Override
-            public void onDrawerClosed(View drawerView) {
-                // Code here will be triggered once the drawer closes as we dont want anything to happen so we leave this blank
-                super.onDrawerClosed(drawerView);
-            }
-
-            @Override
-            public void onDrawerOpened(View drawerView) {
-                // Code here will be triggered once the drawer open as we dont want anything to happen so we leave this blank
-
-                super.onDrawerOpened(drawerView);
-            }
-        };
-
-        //Setting the actionbarToggle to drawer layout
-        drawerLayout.setDrawerListener(actionBarDrawerToggle);
-
-        //calling sync state is necessay or else your hamburger icon wont show up
-        actionBarDrawerToggle.syncState();
     }
 
+    void createListItem(int ID, String name, int rating, double dist, String type, String img) {
+        float density = getResources().getDisplayMetrics().density;
 
+        // get grid to add to
+        LinearLayout srg = (LinearLayout) findViewById(R.id.search_results_grid);
+
+        // initial horizontal layout
+        LinearLayout ll_item = new LinearLayout(this);
+        ll_item.setOrientation(LinearLayout.HORIZONTAL);
+        ll_item.setBackgroundResource(R.drawable.grid_item_border);
+        int padding = (int) (R.dimen.activity_horizontal_margin * density + 0.5f);
+        ll_item.setPadding(padding, padding, padding, padding);
+
+        // left image
+
+        // right info layout
+        LinearLayout ll_info = new LinearLayout(this);
+        ll_info.setOrientation(LinearLayout.VERTICAL);
+
+        // name
+        TextView nameText = new TextView(this);
+        nameText.setText(name);
+        ll_info.addView(nameText);
+
+        // rating
+        TextView ratingText = new TextView(this);
+        ratingText.setText(rating);
+        ll_info.addView(ratingText);
+
+        // dist
+        TextView distText = new TextView(this);
+        distText.setText(Double.toString(dist));
+        ll_info.addView(distText);
+
+        // type
+        TextView typeText = new TextView(this);
+        typeText.setText(type);
+        ll_info.addView(typeText);
+
+        // add info layout to the item layout
+        ll_item.addView(ll_info);
+
+        // add item layout
+        srg.addView(ll_item);
+    }
 
 }

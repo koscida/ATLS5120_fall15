@@ -7,25 +7,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context=".MainActivity">
+    tools:context=".SearchResultsActivity">
 
     <LinearLayout
         android:layout_height="match_parent"
         android:layout_width="match_parent"
-        android:orientation="vertical"
-        >
+        android:orientation="vertical" >
 
         <include
             android:id="@+id/toolbar"
-            layout="@layout/toolbar_actionbar"
-            />
+            layout="@layout/toolbar_actionbar" />
 
-        <FrameLayout
-            android:id="@+id/frame"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-        </FrameLayout>
+        <include
+            android:id="@+id/content_search_results"
+            layout="@layout/content_search_results" />
 
     </LinearLayout>
 
@@ -35,7 +30,6 @@
         android:layout_width="wrap_content"
         android:layout_gravity="start"
         app:headerLayout="@layout/drawer_header"
-        app:menu="@menu/drawer_body"
-        />
+        app:menu="@menu/drawer_body" />
 
 </android.support.v4.widget.DrawerLayout>

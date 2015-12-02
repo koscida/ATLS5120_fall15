@@ -47,6 +47,7 @@ public class BaseActivity
     public final static String RESERVED_SEARCH_PLACE = "com.kodestudios.safespace2.RESERVED_SEARCH_PLACE";
     public final static String GOOGLE_PLACES_API_KEY = "AIzaSyAdsK9u-kgmOG4hiAqpDI0t4koyQwlNbBU";
     public final static String GOOGLE_MAP_API_KEY = "AIzaSyAVmMwc_7180YL1gazX_HDyqzlRMTftbA8";
+    public final static String CREATIVE_SAFESPACE_KEY = "coco";
     public final int PLACE_PICKER_REQUEST = 1;
     public final static String TAG = BaseActivity.class.getSimpleName() + " ----------";
     public final static int CONNECTION_FAILURE_RESOLUTION_REQUEST = 9000;

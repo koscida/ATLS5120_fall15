@@ -41,12 +41,12 @@ public class MainActivity extends BaseActivity {
 
         // set the search buttons
         btns = new ButtonOption[6];
-        btns[0] = new ButtonOption("Bar",               0, R.drawable.graph, "bar");
-        btns[1] = new ButtonOption("Restaurant",        1, R.drawable.graph, "restaurant");
-        btns[2] = new ButtonOption("Food",              2, R.drawable.graph, "food");
-        btns[3] = new ButtonOption("Cafe",              3, R.drawable.graph, "cafe");
-        btns[4] = new ButtonOption("Store",             4, R.drawable.graph, "store");
-        btns[5] = new ButtonOption("Point of Interest", 5, R.drawable.graph, "point_of_interest");
+        btns[0] = new ButtonOption("Bar",               0, R.drawable.search_button_bar,        "bar");
+        btns[1] = new ButtonOption("Restaurant",        1, R.drawable.search_button_restaurant, "restaurant");
+        btns[2] = new ButtonOption("Food",              2, R.drawable.search_button_food,       "food");
+        btns[3] = new ButtonOption("Cafe",              3, R.drawable.search_button_cafe,       "cafe");
+        btns[4] = new ButtonOption("Store",             4, R.drawable.search_button_store,      "store");
+        btns[5] = new ButtonOption("Point of Interest", 5, R.drawable.search_button_poi,        "point_of_interest");
 
 
         for(int i=btns.length-1; i>=0; i-=2) {

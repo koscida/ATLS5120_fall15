@@ -4,50 +4,55 @@
     android:orientation="horizontal"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="@dimen/activity_horizontal_margin">
+    android:padding="@dimen/activity_margin">
 
     <LinearLayout
         android:orientation="vertical"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/activity_margin"
         android:layout_weight=".5">
 
         <ImageButton
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
             android:id="@+id/searchButton_image1"
             android:focusable="true"
             android:onClick="searchPreWritten"/>
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_marginHalf"
             android:textAlignment="center"
+            android:textSize="@dimen/search_button_label"
             android:id="@+id/searchButton_label1"/>
 
     </LinearLayout>
 
     <LinearLayout
         android:orientation="vertical"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight=".5">
 
         <ImageButton
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
             android:id="@+id/searchButton_image2"
             android:focusable="true"
             android:onClick="searchPreWritten"/>
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_marginHalf"
             android:textAlignment="center"
+            android:textSize="@dimen/search_button_label"
             android:id="@+id/searchButton_label2"/>
 
     </LinearLayout>

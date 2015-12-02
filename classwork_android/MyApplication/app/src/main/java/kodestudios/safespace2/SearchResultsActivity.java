@@ -99,7 +99,7 @@ public class SearchResultsActivity extends BaseActivity implements OnMapReadyCal
                 "&radius=1000" +
                 "&types=" + searchPlace +
                 "&key=" + GOOGLE_PLACES_API_KEY;
-        //Log.d(TAG, http_call);
+        Log.d(TAG, http_call);
 
         isNewLocationReady = true;
         setCurrentMapMarker();
@@ -120,41 +120,61 @@ public class SearchResultsActivity extends BaseActivity implements OnMapReadyCal
                         public void run() {
                             for (int i=results.length()-1; i>=0 ; i--) {
 
+                                String id = "";
+                                String name = "";
+                                Double dist = 0.0;
+                                String photoURL = "";
+
+                                Double placeLat = 0.0;
+                                Double placeLon = 0.0;
+
                                 JSONObject result = null;
                                 try {
                                     result = results.getJSONObject(i);
-
-                                    // get place's id and name
-                                    String id = result.getString("id");
-                                    String name = result.getString("name");
-
-                                    // get distance to place
-                                    JSONObject placeGeo = result.getJSONObject("geometry");
-                                    JSONObject placeLoc = placeGeo.getJSONObject("location");
-                                    Double placeLat = placeLoc.getDouble("lat");
-                                    Double placeLon = placeLoc.getDouble("lng");
-                                    Double dist = calcDist(currentLatitude, currentLongitude, placeLat, placeLon);
-                                    //Log.d(TAG, new Double(dist).toString());
-
-                                    // get photo url
-                                    JSONArray placePhotos = result.getJSONArray("photos");
-                                    JSONObject placePhoto = placePhotos.getJSONObject(0);
-                                    String ref = placePhoto.getString("photo_reference");
-                                    String photoURL = "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=" + ref + "&key=" + GOOGLE_PLACES_API_KEY;
-                                    //Log.d(TAG, photoURL);
-
-                                    if(isMapReady) {
-                                        // add place to google map
-                                        mMap.addMarker(new MarkerOptions()
-                                                .position(new LatLng(placeLat, placeLon))
-                                                .title(name));
-                                    }
-
-                                    // add place to gridlist
-                                    createListItem(id, name, 5, dist, photoURL);
                                 } catch (JSONException e) {
                                     e.printStackTrace();
                                 }
+
+                                // get place's id and name
+                                try {
+                                    id = result.getString("id");
+                                    name = result.getString("name");
+                                } catch (JSONException e) {
+                                    e.printStackTrace();
+                                }
+
+                                // get distance to place
+                                try {
+                                    JSONObject placeGeo = result.getJSONObject("geometry");
+                                    JSONObject placeLoc = placeGeo.getJSONObject("location");
+                                    placeLat = placeLoc.getDouble("lat");
+                                    placeLon = placeLoc.getDouble("lng");
+                                    dist = calcDist(currentLatitude, currentLongitude, placeLat, placeLon);
+                                    //Log.d(TAG, new Double(dist).toString());
+                                } catch (JSONException e) {
+                                    e.printStackTrace();
+                                }
+
+                                // get photo url
+                                try {
+                                    JSONArray placePhotos = result.getJSONArray("photos");
+                                    JSONObject placePhoto = placePhotos.getJSONObject(0);
+                                    String ref = placePhoto.getString("photo_reference");
+                                    photoURL = "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=" + ref + "&key=" + GOOGLE_PLACES_API_KEY;
+                                    //Log.d(TAG, photoURL);
+                                } catch (JSONException e) {
+                                    e.printStackTrace();
+                                }
+
+                                if(isMapReady) {
+                                    // add place to google map
+                                    mMap.addMarker(new MarkerOptions()
+                                            .position(new LatLng(placeLat, placeLon))
+                                            .title(name));
+                                }
+
+                                // add place to gridlist
+                                createListItem(id, name, 5, dist, photoURL);
 
 
                             }
@@ -176,7 +196,7 @@ public class SearchResultsActivity extends BaseActivity implements OnMapReadyCal
             CameraUpdate center = CameraUpdateFactory.newLatLng(new LatLng(currentLatitude, currentLongitude));
             mMap.moveCamera(center);
 
-            CameraUpdate zoom= CameraUpdateFactory.zoomTo(15);
+            CameraUpdate zoom = CameraUpdateFactory.zoomTo(14);
             mMap.animateCamera(zoom);
         }
     }
@@ -238,10 +258,6 @@ public class SearchResultsActivity extends BaseActivity implements OnMapReadyCal
         return j;
     }
 
-    private void setUpMap() {
-        //mMap.addMarker(new MarkerOptions().position(new LatLng(0, 0)).title("Marker"));
-    }
-
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         int PLACE_PICKER_REQUEST = 1;
 
@@ -267,13 +283,20 @@ public class SearchResultsActivity extends BaseActivity implements OnMapReadyCal
         grid.addView(contentView, 0);
 
         // set image
-        try {
-            UrlImageView imgView = (UrlImageView) findViewById(R.id.searchResults_image);
-            imgView.setImageURL(new URL(imgURL));
-            //imgView.cancelLoading();
-        } catch (MalformedURLException e) {
-            e.printStackTrace();
+        UrlImageView imgView = (UrlImageView) findViewById(R.id.searchResults_image);
+        if(imgURL.isEmpty()) {
+            imgView.setImageResource(R.drawable.no_img);
+        } else {
+            URL u = null;
+            try {
+                u = new URL(imgURL);
+            } catch (MalformedURLException e) {
+                e.printStackTrace();
+            }
+            imgView.setImageURL(u);
         }
+        //Log.d(TAG, imgView.toString());
+        //imgView.cancelLoading();
 
         // set name
         TextView nameText = (TextView) findViewById(R.id.searchResults_name);
@@ -293,16 +316,16 @@ public class SearchResultsActivity extends BaseActivity implements OnMapReadyCal
 
     double calcDist(double lat1, double lon1, double lat2, double lon2) {
         double Rmeters = 6371000; // metres
-        double R = Rmeters /1609.34; // miles
+        double R = Rmeters / 1609.34; // miles
 
-        double φ1 = Math.toRadians(lat1);
-        double φ2 = Math.toRadians(lat2);
-        double Δφ = Math.toRadians(lat2-lat1);
-        double Δλ = Math.toRadians(lon2-lon1);
+        double lat1Rad = Math.toRadians(lat1);
+        double lat2Rad = Math.toRadians(lat2);
+        double latDiffRad = Math.toRadians(lat2-lat1);
+        double lonDiffRad = Math.toRadians(lon2-lon1);
 
-        double a = Math.sin(Δφ/2) * Math.sin(Δφ/2) +
-                Math.cos(φ1) * Math.cos(φ2) *
-                        Math.sin(Δλ/2) * Math.sin(Δλ/2);
+        double a = Math.sin(latDiffRad/2) * Math.sin(latDiffRad/2) +
+                Math.cos(lat1Rad) * Math.cos(lat2Rad) *
+                        Math.sin(lonDiffRad/2) * Math.sin(lonDiffRad/2);
         double c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
 
         double d = R * c;

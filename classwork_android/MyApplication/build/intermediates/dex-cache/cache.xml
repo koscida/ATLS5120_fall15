@@ -2,179 +2,221 @@
 <items version="2" >
 
     <item
-        jar="/Users/kosba/Documents/ATLS5120_fall15/classwork_android/MyApplication/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/8.3.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="58adcfbe2c8393765e84c5489d01bba6a5159eb2">
-        <dex dex="/Users/kosba/Documents/ATLS5120_fall15/classwork_android/MyApplication/app/build/intermediates/pre-dexed/debug/classes-fcaf2f1eef1a310664cc400cd99785794f6a27d3.jar" />
-    </item>
-    <item
-        jar="/Users/kosba/Documents/ATLS5120_fall15/classwork_android/MyApplication/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/8.3.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="744c49c02a27569cc4cc049685d3649e4ef439f2">
-        <dex dex="/Users/kosba/Documents/ATLS5120_fall15/classwork_android/MyApplication/app/build/intermediates/pre-dexed/debug/classes-fa8fb4ca4a519afed967dfd10c05eed830ff8dbb.jar" />
-    </item>
-    <item
-        jar="/Users/kosba/Documents/ATLS5120_fall15/classwork_android/MyApplication/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.3.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="27775d59b16610ac76f1b83693fedd9520396332">
-        <dex dex="/Users/kosba/Documents/ATLS5120_fall15/classwork_android/MyApplication/app/build/intermediates/pre-dexed/debug/classes-f960287474a8bb8edb70a533cbef1d23937850ce.jar" />
-    </item>
-    <item
-        jar="/Users/kosba/Documents/ATLS5120_fall15/classwork_android/MyApplication/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/8.3.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="2c6fcd6267cbac6509a2e72a61127534a1d616cf">
-        <dex dex="/Users/kosba/Documents/ATLS5120_fall15/classwork_android/MyApplication/app/build/intermediates/pre-dexed/debug/classes-f05b32b718374519baa53596878330e3094818ff.jar" />
-    </item>
-    <item
-        jar="/Users/kosba/Documents/ATLS5120_fall15/classwork_android/MyApplication/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/8.3.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="ea34579b1be157cd792376362157e9c54ebb4cd7">
-        <dex dex="/Users/kosba/Documents/ATLS5120_fall15/classwork_android/MyApplication/app/build/intermediates/pre-dexed/debug/classes-98b852b4fc8a7a7779239683beff8cdffb1e3d2c.jar" />
-    </item>
-    <item
-        jar="/Users/kosba/Documents/ATLS5120_fall15/classwork_android/MyApplication/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/8.3.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="eb576427887e497cd958a475475f9206e38dc314">
-        <dex dex="/Users/kosba/Documents/ATLS5120_fall15/classwork_android/MyApplication/app/build/intermediates/pre-dexed/debug/classes-6c9ae71ad0945b13538804398e42966fd983867a.jar" />
-    </item>
-    <item
-        jar="/Users/kosba/Documents/ATLS5120_fall15/classwork_android/MyApplication/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/8.3.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="9aedc597d74c6d77258ce5236e9abff0c3cc65e3">
-        <dex dex="/Users/kosba/Documents/ATLS5120_fall15/classwork_android/MyApplication/app/build/intermediates/pre-dexed/debug/classes-5609ca3851647bb03aa59edaf018839a11638623.jar" />
-    </item>
-    <item
-        jar="/Users/kosba/Documents/ATLS5120_fall15/classwork_android/MyApplication/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.3.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="71eda10e33212e44245524b5087366ff8d805825">
-        <dex dex="/Users/kosba/Documents/ATLS5120_fall15/classwork_android/MyApplication/app/build/intermediates/pre-dexed/debug/classes-6f4af64077ef32eb89b891167a1d92b374b4146a.jar" />
-    </item>
-    <item
-        jar="/Users/kosba/Documents/ATLS5120_fall15/classwork_android/MyApplication/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/8.3.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="724ce977487ab3a215d4d2eb47d8dccd9f30013f">
-        <dex dex="/Users/kosba/Documents/ATLS5120_fall15/classwork_android/MyApplication/app/build/intermediates/pre-dexed/debug/classes-2e99bf0117fe09512aa4bdbdc87208b1e377585e.jar" />
-    </item>
-    <item
-        jar="/Users/kosba/Documents/ATLS5120_fall15/classwork_android/MyApplication/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/8.3.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="0a1897426566e408a5c20a3d931f77d89771d07f">
-        <dex dex="/Users/kosba/Documents/ATLS5120_fall15/classwork_android/MyApplication/app/build/intermediates/pre-dexed/debug/classes-b7b55d78d7273314a5af976eb451d2476217d1f6.jar" />
-    </item>
-    <item
-        jar="/Users/kosba/Documents/ATLS5120_fall15/classwork_android/MyApplication/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.3.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="af6ee25641df3142059c0828517aa7ee6eba08d6">
-        <dex dex="/Users/kosba/Documents/ATLS5120_fall15/classwork_android/MyApplication/app/build/intermediates/pre-dexed/debug/classes-125569b4a2f1c953792805f9ab3a317f0c4e1c04.jar" />
-    </item>
-    <item
-        jar="/Users/kosba/Documents/ATLS5120_fall15/classwork_android/MyApplication/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/libs/internal_impl-22.2.0.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
-        <dex dex="/Users/kosba/Documents/ATLS5120_fall15/classwork_android/MyApplication/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-86e025abd0816ab6e90521e7ec6d465014bb8f29.jar" />
-    </item>
-    <item
-        jar="/Users/kosba/Documents/ATLS5120_fall15/classwork_android/MyApplication/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.3.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="9c9bdb4b2497465a6cf7d5e8f57c5298f828a380">
-        <dex dex="/Users/kosba/Documents/ATLS5120_fall15/classwork_android/MyApplication/app/build/intermediates/pre-dexed/debug/classes-2c80efb9d1bef0c234021e65ae7b8264a9176e3e.jar" />
-    </item>
-    <item
-        jar="/Users/kosba/Documents/ATLS5120_fall15/classwork_android/MyApplication/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.3.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="4b8df1b1e51fe14b0e89b3845dc2e215a024a09f">
-        <dex dex="/Users/kosba/Documents/ATLS5120_fall15/classwork_android/MyApplication/app/build/intermediates/pre-dexed/debug/classes-39320abce9f3535b22602ba864912d3e49644ca3.jar" />
-    </item>
-    <item
-        jar="/Users/kosba/Documents/ATLS5120_fall15/classwork_android/MyApplication/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/8.3.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="697679619b00837e3d09e9988a2e1e2a9009d502">
-        <dex dex="/Users/kosba/Documents/ATLS5120_fall15/classwork_android/MyApplication/app/build/intermediates/pre-dexed/debug/classes-ca0cc7f981b72848bab9566da6ae234fb1ed6529.jar" />
-    </item>
-    <item
-        jar="/Users/kosba/Documents/ATLS5120_fall15/classwork_android/MyApplication/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.3.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="0af4f577b4a21eb9be2a7f52e33b077b67e6d9f8">
-        <dex dex="/Users/kosba/Documents/ATLS5120_fall15/classwork_android/MyApplication/app/build/intermediates/pre-dexed/debug/classes-61fae8a7af0c79634a6941a7f7c5f2ae5d9b1eb7.jar" />
-    </item>
-    <item
-        jar="/Users/kosba/Documents/ATLS5120_fall15/classwork_android/MyApplication/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.3.0/jars/classes.jar"
+        jar="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="345a1b5cf5b144ce18ba6962bc66a7e2f26c1c1b">
-        <dex dex="/Users/kosba/Documents/ATLS5120_fall15/classwork_android/MyApplication/app/build/intermediates/pre-dexed/debug/classes-a90d893a7cf3bad953d64eda39b09d6e8d825293.jar" />
+        <dex dex="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\pre-dexed\debug\classes-8733b3b81f566d55d832f02de20236c409397ece.jar" />
     </item>
     <item
-        jar="/Users/kosba/Documents/ATLS5120_fall15/classwork_android/MyApplication/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/classes.jar"
+        jar="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="dcf8c83c3dead00a6c4fe313e95f7aaca20dc641">
-        <dex dex="/Users/kosba/Documents/ATLS5120_fall15/classwork_android/MyApplication/app/build/intermediates/pre-dexed/debug/classes-c89c23125d8c3fe561a1d756db331245d5816d47.jar" />
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\pre-dexed\debug\classes-163805fbc8d5d47bfffcbb12c7eef000de7188df.jar" />
     </item>
     <item
-        jar="/Users/kosba/Documents/ATLS5120_fall15/classwork_android/MyApplication/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/8.3.0/jars/classes.jar"
+        jar="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="fd76d95678a6b2b8a49bb8a9fb5bcef7aedb70e7">
-        <dex dex="/Users/kosba/Documents/ATLS5120_fall15/classwork_android/MyApplication/app/build/intermediates/pre-dexed/debug/classes-b4bb694fc3818352864aac9a23da38bba3b2384f.jar" />
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1-93048485f0ce0fd49a3ba3874982952a6392a61f.jar" />
     </item>
     <item
-        jar="/Users/kosba/Documents/ATLS5120_fall15/classwork_android/MyApplication/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.3.0/jars/classes.jar"
+        jar="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\8.3.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="77f9593d979f4347344be233bd0d888315f79517">
-        <dex dex="/Users/kosba/Documents/ATLS5120_fall15/classwork_android/MyApplication/app/build/intermediates/pre-dexed/debug/classes-a749b2853db41ca35aa5fbdc7ce7838da4168489.jar" />
+        sha1="0af4f577b4a21eb9be2a7f52e33b077b67e6d9f8">
+        <dex dex="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\pre-dexed\debug\classes-7b8a1fff14c079dfed1da5b6a69bb0aaf7155ab6.jar" />
     </item>
     <item
-        jar="/Users/kosba/Documents/ATLS5120_fall15/classwork_android/MyApplication/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.3.0/jars/classes.jar"
+        jar="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\8.3.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.2"
-        sha1="0c3e81d3eb86b86d194b5cdb6a4de78203f6f7fd">
-        <dex dex="/Users/kosba/Documents/ATLS5120_fall15/classwork_android/MyApplication/app/build/intermediates/pre-dexed/debug/classes-cf0ac7244a865fa10588cb53b8ec33f04d7f5fc8.jar" />
+        sha1="724ce977487ab3a215d4d2eb47d8dccd9f30013f">
+        <dex dex="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\pre-dexed\debug\classes-b843ebdd4957590e945754a78f196695344fd909.jar" />
     </item>
     <item
-        jar="/Users/kosba/Documents/ATLS5120_fall15/classwork_android/MyApplication/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.3.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="6d9ed9a288364688e7fcf6704776284dac1eb42e">
-        <dex dex="/Users/kosba/Documents/ATLS5120_fall15/classwork_android/MyApplication/app/build/intermediates/pre-dexed/debug/classes-887c4b8efdff28085c29cee437cee464ae815d80.jar" />
-    </item>
-    <item
-        jar="/Users/kosba/Documents/ATLS5120_fall15/classwork_android/MyApplication/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/8.3.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="cb4af597d079ffdc0984a3ec2c03cbf6a1b9f869">
-        <dex dex="/Users/kosba/Documents/ATLS5120_fall15/classwork_android/MyApplication/app/build/intermediates/pre-dexed/debug/classes-92c802bab61fe18a6002e917428418fbf0b3004b.jar" />
-    </item>
-    <item
-        jar="/Users/kosba/Documents/ATLS5120_fall15/classwork_android/MyApplication/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.3.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="01a90bbb9495a8bbf6f3cfdf12f1b35caaa9524b">
-        <dex dex="/Users/kosba/Documents/ATLS5120_fall15/classwork_android/MyApplication/app/build/intermediates/pre-dexed/debug/classes-3633f1ea45afabb000548c875dfa357f67ef6698.jar" />
-    </item>
-    <item
-        jar="/Users/kosba/Documents/ATLS5120_fall15/classwork_android/MyApplication/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.3.0/jars/classes.jar"
+        jar="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.3.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="b000ecceb9877fefcdc7ab1959ff03df91551656">
-        <dex dex="/Users/kosba/Documents/ATLS5120_fall15/classwork_android/MyApplication/app/build/intermediates/pre-dexed/debug/classes-00c8833f3e75490da06b0d2a4efc93342885b706.jar" />
+        <dex dex="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\pre-dexed\debug\classes-17b8f8b5ca166870ee48b896e2419366c5d871a5.jar" />
+    </item>
+    <item
+        jar="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="01a90bbb9495a8bbf6f3cfdf12f1b35caaa9524b">
+        <dex dex="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\pre-dexed\debug\classes-2335e481044fa8265fea82ce95fabbb15a815b77.jar" />
+    </item>
+    <item
+        jar="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="0c3e81d3eb86b86d194b5cdb6a4de78203f6f7fd">
+        <dex dex="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\pre-dexed\debug\classes-76f4af2f8a8f034ca774a80f40ec2713c08cf5e7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="2c6fcd6267cbac6509a2e72a61127534a1d616cf">
+        <dex dex="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\pre-dexed\debug\classes-e6969e8b454ed5510613190b7e73f776d87a263f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="eb576427887e497cd958a475475f9206e38dc314">
+        <dex dex="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\pre-dexed\debug\classes-f518fa6ce4b3bdc46a2a6dcfd490a1bbcfefce29.jar" />
+    </item>
+    <item
+        jar="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\pre-dexed\debug\classes-81f57ec636b5ba7cc5f55f7db8d45f4a962d83f0.jar" />
+    </item>
+    <item
+        jar="C:\Users\Brit\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1-0ac503976ead0e02ec04eb66d9642f892f4eaf5d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ea34579b1be157cd792376362157e9c54ebb4cd7">
+        <dex dex="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\pre-dexed\debug\classes-d6d2706c8f42c28d533607560357b6b6cec32675.jar" />
+    </item>
+    <item
+        jar="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\pre-dexed\debug\classes-00ddbdc5c27e1871b1b9a2fcbba9a87667e8a222.jar" />
+    </item>
+    <item
+        jar="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="af6ee25641df3142059c0828517aa7ee6eba08d6">
+        <dex dex="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\pre-dexed\debug\classes-b5b123424df451a4dec3fabfcde60b1c60db68c1.jar" />
+    </item>
+    <item
+        jar="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="0a1897426566e408a5c20a3d931f77d89771d07f">
+        <dex dex="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\pre-dexed\debug\classes-a244cf9626a1a86003035f8187527fe788debddd.jar" />
+    </item>
+    <item
+        jar="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="744c49c02a27569cc4cc049685d3649e4ef439f2">
+        <dex dex="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\pre-dexed\debug\classes-ff25a681ddb4c6d7c2c4824109bbb68840df465e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="fd76d95678a6b2b8a49bb8a9fb5bcef7aedb70e7">
+        <dex dex="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\pre-dexed\debug\classes-703596b4e9079afb115a460dbe0261ab19f88e8c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6d9ed9a288364688e7fcf6704776284dac1eb42e">
+        <dex dex="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\pre-dexed\debug\classes-7853a42f4ca2610556a245926c2cd55e7c6a36b0.jar" />
+    </item>
+    <item
+        jar="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="58adcfbe2c8393765e84c5489d01bba6a5159eb2">
+        <dex dex="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\pre-dexed\debug\classes-2f52ea333ba5e13023a9db67623ed48cd9f5b4e9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
+        <dex dex="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-1b912274ec38a81ae05b4f07b83d8570a3f3c12d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="27775d59b16610ac76f1b83693fedd9520396332">
+        <dex dex="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\pre-dexed\debug\classes-12bba8df5d994e9caf9ace2dae9b643bfd0d0afb.jar" />
+    </item>
+    <item
+        jar="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="9c9bdb4b2497465a6cf7d5e8f57c5298f828a380">
+        <dex dex="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\pre-dexed\debug\classes-e2ce9a8c6bbff22d7cfc6cf047dd80559347fa17.jar" />
+    </item>
+    <item
+        jar="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="697679619b00837e3d09e9988a2e1e2a9009d502">
+        <dex dex="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\pre-dexed\debug\classes-afaee12ad05161d821a7f4a6fe107e7dbd3854e2.jar" />
+    </item>
+    <item
+        jar="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="9aedc597d74c6d77258ce5236e9abff0c3cc65e3">
+        <dex dex="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\pre-dexed\debug\classes-dac6caae164b7c430b673e3e6168bf5641e52b29.jar" />
+    </item>
+    <item
+        jar="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4b8df1b1e51fe14b0e89b3845dc2e215a024a09f">
+        <dex dex="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\pre-dexed\debug\classes-b251780a8270dd9d031f64f0ec78db7ae1379790.jar" />
+    </item>
+    <item
+        jar="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\pre-dexed\debug\classes-dccccf8a3852bf33debe11135bc7e4bb83788b24.jar" />
+    </item>
+    <item
+        jar="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="cb4af597d079ffdc0984a3ec2c03cbf6a1b9f869">
+        <dex dex="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\pre-dexed\debug\classes-e37b75dac743915722b851a9d7e3618b0f4d40ff.jar" />
+    </item>
+    <item
+        jar="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="77f9593d979f4347344be233bd0d888315f79517">
+        <dex dex="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\pre-dexed\debug\classes-3c2d22625da300c3a057b1273b31935c627d3fb3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="dcf8c83c3dead00a6c4fe313e95f7aaca20dc641">
+        <dex dex="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\pre-dexed\debug\classes-030f086b03f4e0e20866d4f484189f1ca972976b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="71eda10e33212e44245524b5087366ff8d805825">
+        <dex dex="C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\pre-dexed\debug\classes-08700cbcf5399610c152663cde51fd5e7398504a.jar" />
     </item>
 
 </items>

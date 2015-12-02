@@ -6,62 +6,19 @@
     android:orientation="vertical"
     android:id="@+id/content_search_page">
 
-
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:id="@+id/grid_layout_horizontal_1_1">
+        android:layout_height="wrap_content">
 
-        <ImageButton
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight=".5"
-            android:layout_margin="5dp"
-            android:id="@+id/buttonRestaurants"
-            android:focusable="true"
-            android:background="@drawable/graph"
-            android:onClick="searchPreWritten"/>
-
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight=".5"
-            android:layout_margin="5dp"
-            android:id="@+id/buttonBars"
-            android:focusable="true"
-            android:background="@drawable/graph"
-            android:onClick="searchPreWritten"/>
-
-    </LinearLayout>
+            android:orientation="vertical"
+            android:id="@+id/button_grid">
 
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_below="@+id/grid_layout_horizontal_1_1"
-        android:id="@+id/grid_layout_horizontal_1_2">
+        </LinearLayout>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight=".5"
-            android:layout_margin="5dp"
-            android:textAlignment="center"
-            android:id="@+id/buttonRestaurantLabel"
-            android:text="@string/buttonRestaurantLabel"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight=".5"
-            android:layout_margin="5dp"
-            android:textAlignment="center"
-            android:id="@+id/buttonBarLabel"
-            android:text="@string/buttonBarLabel" />
-
-    </LinearLayout>
-
+    </ScrollView>
 
 </RelativeLayout>

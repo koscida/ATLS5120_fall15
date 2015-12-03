@@ -79,6 +79,7 @@ public class PlaceReviewActivity extends BaseActivity {
                 // once thread is finished, then start on intent stuff
                 intent.putExtra(RESERVED_PLACE_MYPLACE, myPlace);
                 startActivity(intent);
+                finish();
             }
         }.start();
     }

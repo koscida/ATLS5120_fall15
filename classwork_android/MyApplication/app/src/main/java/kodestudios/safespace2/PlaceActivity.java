@@ -13,14 +13,25 @@ import com.google.android.gms.common.api.ResultCallback;
 import com.google.android.gms.location.places.Place;
 import com.google.android.gms.location.places.PlaceBuffer;
 import com.google.android.gms.location.places.Places;
+import com.google.android.gms.maps.CameraUpdate;
+import com.google.android.gms.maps.CameraUpdateFactory;
+import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.MapFragment;
+import com.google.android.gms.maps.OnMapReadyCallback;
+import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MarkerOptions;
 
 /**
  * Created by Brit on 12/2/2015.
  */
-public class PlaceActivity extends BaseActivity {
+public class PlaceActivity extends BaseActivity implements OnMapReadyCallback {
 
     MyPlace myPlace;
     Place pl;
+
+    boolean isMapReady = false;
+    MapFragment mapFragment;
+    GoogleMap mMap;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +47,10 @@ public class PlaceActivity extends BaseActivity {
         View contentView = inflater.inflate(R.layout.activity_place, null, false);
         drawerLayout.addView(contentView, 0);
 
+        // map stuff
+        mapFragment = (MapFragment) getFragmentManager().findFragmentById(R.id.place_map);
+        mapFragment.getMapAsync(this);
+
         //Log.d(TAG, "PlaceActivity - End");
     }
 
@@ -43,7 +58,10 @@ public class PlaceActivity extends BaseActivity {
         Intent intent = new Intent(this, PlaceReviewActivity.class);
         intent.putExtra(RESERVED_PLACE_MYPLACE, myPlace);
         startActivity(intent);
+        finish();
     }
+
+
 
 
     @Override
@@ -63,10 +81,28 @@ public class PlaceActivity extends BaseActivity {
                         places.release();
                     }
                 });
-
-
-
     }
+
+    @Override
+    public void onMapReady(GoogleMap map) {
+        mMap = map;
+        setCurrentMapLocation();
+    }
+
+    public void setCurrentMapLocation() {
+        // add place to google map
+        mMap.addMarker(new MarkerOptions()
+                .position(new LatLng(myPlace.lat, myPlace.lon))
+                .title(myPlace.name));
+
+        CameraUpdate center = CameraUpdateFactory.newLatLng(new LatLng(myPlace.lat, myPlace.lon));
+        mMap.moveCamera(center);
+
+        CameraUpdate zoom = CameraUpdateFactory.zoomTo(14);
+        mMap.animateCamera(zoom);
+    }
+
+
 
 
 
@@ -96,7 +132,7 @@ public class PlaceActivity extends BaseActivity {
 
         // set open
         TextView openText = (TextView) findViewById(R.id.placeView_open);
-        String o = "Open: " + ( (myPlace.openNow) ? "Open Now" : "Closed" );
+        String o = "Status: " + ( (myPlace.openNow) ? "Open Now" : "Closed" );
         openText.setText(o);
 
         // set phone

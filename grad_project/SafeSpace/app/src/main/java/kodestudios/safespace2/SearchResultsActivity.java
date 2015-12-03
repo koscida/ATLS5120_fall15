@@ -203,6 +203,11 @@ public class SearchResultsActivity extends BaseActivity implements OnMapReadyCal
                 @Override
                 public void run() {
 
+                    // get grid layout that we are going to add to
+                    LinearLayout grid = (LinearLayout) findViewById(R.id.search_results_grid);
+                    if(((LinearLayout) grid).getChildCount() > 0)
+                        ((LinearLayout) grid).removeAllViews();
+
                     for (int i = 0; i < places.length; i++) {
 
                         // add place to map

@@ -11,7 +11,8 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginRight="@dimen/activity_margin"
-        android:layout_weight=".5">
+        android:layout_weight=".5"
+        android:background="@color/white">
 
         <ImageButton
             android:layout_width="fill_parent"
@@ -20,7 +21,10 @@
             android:adjustViewBounds="true"
             android:id="@+id/searchButton_image1"
             android:focusable="true"
-            android:onClick="searchPreWritten"/>
+            android:onClick="searchPreWritten"
+            android:padding="0dp"
+            android:layout_margin="0dp"
+            android:layout_weight="0.75"/>
 
         <TextView
             android:layout_width="fill_parent"
@@ -36,7 +40,8 @@
         android:orientation="vertical"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_weight=".5">
+        android:layout_weight=".5"
+        android:background="@color/white">
 
         <ImageButton
             android:layout_width="fill_parent"
@@ -45,7 +50,10 @@
             android:adjustViewBounds="true"
             android:id="@+id/searchButton_image2"
             android:focusable="true"
-            android:onClick="searchPreWritten"/>
+            android:onClick="searchPreWritten"
+            android:padding="0dp"
+            android:layout_margin="0dp"
+            android:layout_weight="0.75"/>
 
         <TextView
             android:layout_width="fill_parent"

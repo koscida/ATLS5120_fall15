@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\src\main\AndroidManifest.xml:2:1-46:12
+ADDED from C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\src\main\AndroidManifest.xml:2:1-47:12
 	xmlns:android
 		ADDED from C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\src\main\AndroidManifest.xml:3:5-63
 	package
@@ -41,7 +41,7 @@ ADDED from C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyAppli
 	android:name
 		ADDED from C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\src\main\AndroidManifest.xml:9:22-95
 application
-ADDED from C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\src\main\AndroidManifest.xml:12:5-44:19
+ADDED from C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\src\main\AndroidManifest.xml:12:5-45:19
 MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:23.1.1] C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\AndroidManifest.xml:22:5-20
@@ -154,7 +154,7 @@ MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Brit\Documents\Kos_
 	android:theme
 		ADDED from C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\src\main\AndroidManifest.xml:17:9-40
 activity#kodestudios.safespace2.MainActivity
-ADDED from C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\src\main\AndroidManifest.xml:19:9-28:20
+ADDED from C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\src\main\AndroidManifest.xml:19:9-27:20
 	android:label
 		ADDED from C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\src\main\AndroidManifest.xml:21:13-45
 	android:theme
@@ -162,27 +162,35 @@ ADDED from C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyAppli
 	android:name
 		ADDED from C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\src\main\AndroidManifest.xml:20:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\src\main\AndroidManifest.xml:23:13-27:29
+ADDED from C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\src\main\AndroidManifest.xml:23:13-26:29
 action#android.intent.action.MAIN
 ADDED from C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\src\main\AndroidManifest.xml:24:17-69
 	android:name
 		ADDED from C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\src\main\AndroidManifest.xml:24:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\src\main\AndroidManifest.xml:26:17-77
+ADDED from C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\src\main\AndroidManifest.xml:25:17-77
 	android:name
-		ADDED from C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\src\main\AndroidManifest.xml:26:27-74
+		ADDED from C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\src\main\AndroidManifest.xml:25:27-74
 activity#kodestudios.safespace2.SearchResultsActivity
-ADDED from C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\src\main\AndroidManifest.xml:30:9-69
+ADDED from C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\src\main\AndroidManifest.xml:29:9-69
 	android:name
-		ADDED from C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\src\main\AndroidManifest.xml:30:19-56
+		ADDED from C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\src\main\AndroidManifest.xml:29:19-56
+activity#kodestudios.safespace2.PlaceActivity
+ADDED from C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\src\main\AndroidManifest.xml:30:9-61
+	android:name
+		ADDED from C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\src\main\AndroidManifest.xml:30:19-48
+activity#kodestudios.safespace2.PlaceReviewActivity
+ADDED from C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\src\main\AndroidManifest.xml:31:9-67
+	android:name
+		ADDED from C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\src\main\AndroidManifest.xml:31:19-54
 meta-data#com.google.android.geo.API_KEY
-ADDED from C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\src\main\AndroidManifest.xml:32:9-34:70
+ADDED from C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\src\main\AndroidManifest.xml:33:9-35:70
 	android:name
-		ADDED from C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\src\main\AndroidManifest.xml:33:13-58
+		ADDED from C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\src\main\AndroidManifest.xml:34:13-58
 	android:value
-		ADDED from C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\src\main\AndroidManifest.xml:34:13-68
+		ADDED from C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\src\main\AndroidManifest.xml:35:13-68
 meta-data#com.google.android.gms.version
-ADDED from C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\src\main\AndroidManifest.xml:36:9-38:69
+ADDED from C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\src\main\AndroidManifest.xml:37:9-39:69
 MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
 MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
 MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
@@ -215,18 +223,18 @@ MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\Brit\
 MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
 MERGED from [com.google.android.gms:play-services-basement:8.3.0] C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.3.0\AndroidManifest.xml:21:9-23:69
 	android:name
-		ADDED from C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\src\main\AndroidManifest.xml:37:13-58
+		ADDED from C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\src\main\AndroidManifest.xml:38:13-58
 	android:value
-		ADDED from C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\src\main\AndroidManifest.xml:38:13-66
+		ADDED from C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\src\main\AndroidManifest.xml:39:13-66
 uses-feature#0x00020000
-ADDED from C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\src\main\AndroidManifest.xml:40:9-42:38
+ADDED from C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\src\main\AndroidManifest.xml:41:9-43:38
 MERGED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:22:5-24:33
 MERGED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:22:5-24:33
 MERGED from [com.google.android.gms:play-services-maps:8.3.0] C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.3.0\AndroidManifest.xml:22:5-24:33
 	android:required
-		ADDED from C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\src\main\AndroidManifest.xml:42:13-36
+		ADDED from C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\src\main\AndroidManifest.xml:43:13-36
 	android:glEsVersion
-		ADDED from C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\src\main\AndroidManifest.xml:41:13-45
+		ADDED from C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\src\main\AndroidManifest.xml:42:13-45
 uses-sdk
 INJECTED from C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\Brit\Documents\Kos_ATLS5120_fall15\classwork_android\MyApplication\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43

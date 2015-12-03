@@ -41,6 +41,8 @@
             </intent-filter>
         </activity>
         <activity android:name="kodestudios.safespace2.SearchResultsActivity" />
+        <activity android:name="kodestudios.safespace2.PlaceActivity" />
+        <activity android:name="kodestudios.safespace2.PlaceReviewActivity" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"

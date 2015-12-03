@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimarySuperDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:actionOverflowButtonStyle">@style/ToolbarOverflowButton</item>
+        <item name="android:buttonStyleToggle">@style/ToolbarDrawerButton</item>
+        <item name="drawerArrowStyle">@style/ToolbarDrawerButton</item>
+        <item name="android:actionBarStyle">@style/Theme.AppCompat.Light.DarkActionBar</item>
+
+        <item name="android:windowBackground">@color/white</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- ActionBar styles for Text Style, Background-->
+    <!--<style name="ToolbarTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+    <style name="ToolbarTheme" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <!-- Define custom attributes here -->
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+
+        <item name="titleTextAppearance">@style/ToolbarTitleTheme</item>
+        <item name="android:titleTextStyle">@style/ToolbarTitleTheme</item>
+
+        <item name="android:actionOverflowButtonStyle">@style/ToolbarOverflowButton</item>
+
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- ActionBar styles for Text Style -->
+    <style name="ToolbarTitleTheme" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="ToolbarOverflowButton" parent="@android:style/Widget.Holo.ActionButton.Overflow">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="colorControlNormal">@color/white</item>
+    </style>
+
+    <style name="ToolbarDrawerButton" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="color">@color/white</item>
+    </style>
+
+
+</resources>

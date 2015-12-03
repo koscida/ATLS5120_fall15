@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/content_place_content">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <!-- ****************************** -->
+        <!--        Top Info Section        -->
+        <!-- ****************************** -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/activity_padding">
+
+            <!-- name -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/placeView_name"
+                android:textSize="@dimen/activity_header_1"/>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_marginHalf"
+                android:layout_marginTop="@dimen/activity_marginHalf"
+                android:orientation="horizontal">
+
+                <!-- Type -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginStart="0dp"
+                    android:id="@+id/placeView_type"/>
+
+                <!-- Dist -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginEnd="0dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:id="@+id/placeView_dist"/>
+
+            </RelativeLayout>
+
+            <!-- rating -->
+            <kodestudios.safespace2.RatingImageView
+                android:layout_width="@dimen/search_results_rating_width"
+                android:layout_height="@dimen/search_results_rating_height"
+                android:layout_margin="0dp"
+                android:padding="0dp"
+                android:id="@+id/placeView_rating"/>
+
+        </LinearLayout>
+
+
+        <!-- horizontal rule -->
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dip"
+            android:background="@color/medGrey"></View>
+
+
+
+
+        <!-- ********************************* -->
+        <!--        Buttom Info Section        -->
+        <!-- ********************************* -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/activity_padding"
+            android:id="@+id/placeView_bottomInfo">
+
+            <!-- open -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_marginHalf"
+                android:id="@+id/placeView_open"/>
+
+            <!-- hours -->
+
+
+            <!-- phone number -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_marginHalf"
+                android:id="@+id/placeView_phone"/>
+
+            <!-- website -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_marginHalf"
+                android:id="@+id/placeView_website"/>
+
+            <!-- vicinity -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/placeView_vicinity"/>
+
+        </LinearLayout>
+
+
+
+        <!-- horizontal rule -->
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="@color/medGrey"></View>
+
+
+
+
+        <!-- ****************************** -->
+        <!--            Map Layout          -->
+        <!-- ****************************** -->
+        <!-- map -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/activity_padding"
+            android:orientation="vertical"
+            android:background="@color/lightGrey"
+            android:id="@+id/place_map_parent">
+
+            <fragment
+                android:name="com.google.android.gms.maps.MapFragment"
+                android:id="@+id/place_map"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/search_results_map_height" />
+
+        </LinearLayout>
+
+
+        <!-- horizontal rule -->
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="@color/medGrey"></View>
+
+
+
+
+        <!-- ****************************** -->
+        <!--        Google Review           -->
+        <!-- ****************************** -->
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/activity_margin">
+
+            <!-- google review -->
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/googleReviews"
+                android:textSize="@dimen/activity_header_1"
+                android:layout_marginBottom="@dimen/activity_marginHalf"/>
+
+            <!-- rating -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/placeView_googleRating"
+                android:layout_marginBottom="@dimen/activity_marginHalf"/>
+
+            <!-- price -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/placeView_googlePrice"/>
+
+
+        </LinearLayout>
+
+
+        <!-- horizontal rule -->
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="@color/medGrey"></View>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_margin"
+            android:paddingLeft="@dimen/activity_paddingDouble"
+            android:paddingStart="@dimen/activity_paddingDouble"
+            android:paddingRight="@dimen/activity_paddingDouble"
+            android:paddingEnd="@dimen/activity_paddingDouble"
+            android:paddingTop="@dimen/activity_padding"
+            android:paddingBottom="@dimen/activity_padding"
+            android:background="@color/colorTertiarySuperLight"
+            android:textColor="@color/white"
+            android:text="@string/submitReview"
+            android:onClick="goToReview"/>
+
+
+
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/Brittany/Documents/Kos_ATLS5120_fall15/classwork_android/MyApplication/app/src/main/res/layout/content_place.xml -->

@@ -18,4 +18,4 @@
     <item android:state_selected="true" android:drawable="@drawable/abc_tab_indicator_mtrl_alpha" />
     <item android:drawable="@android:color/transparent" />
 </selector>
-<!-- From: file:/usr/local/google/buildbot/src/googleplex-android/mnc-supportlib-release/frameworks/support/v7/appcompat/res/drawable/abc_tab_indicator_material.xml --><!-- From: file:/C:/Users/Brit/Documents/Kos_ATLS5120_fall15/classwork_android/MyApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_tab_indicator_material.xml -->
+<!-- From: file:/usr/local/google/buildbot/src/googleplex-android/mnc-supportlib-release/frameworks/support/v7/appcompat/res/drawable/abc_tab_indicator_material.xml --><!-- From: file:/C:/Users/Brittany/Documents/Kos_ATLS5120_fall15/classwork_android/MyApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable/abc_tab_indicator_material.xml -->

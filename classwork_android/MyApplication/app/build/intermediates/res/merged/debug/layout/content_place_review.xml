@@ -45,6 +45,7 @@
             android:id="@+id/placeReview_name" />
 
 
+        <!--
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -57,6 +58,7 @@
             android:layout_marginBottom="@dimen/activity_margin"
             android:inputType="textEmailAddress"
             android:id="@+id/placeReview_email" />
+            -->
 
 
         <TextView
@@ -93,4 +95,4 @@
     </ScrollView>
 
 </RelativeLayout>
-<!-- From: file:/C:/Users/Brittany/Documents/Kos_ATLS5120_fall15/classwork_android/MyApplication/app/src/main/res/layout/content_place_review.xml -->
+<!-- From: file:/C:/Users/Brit/Documents/Kos_ATLS5120_fall15/classwork_android/MyApplication/app/src/main/res/layout/content_place_review.xml -->

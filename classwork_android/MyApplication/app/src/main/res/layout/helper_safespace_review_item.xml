@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/activity_padding"
+    android:id="@+id/safeSpaceReview_item"
+    android:background="@drawable/grid_item_border">
+    <!--android:background="#ddd"-->
+
+    <ImageView
+        android:layout_width="@dimen/search_results_rating_width"
+        android:layout_height="@dimen/search_results_rating_height"
+        android:layout_marginBottom="@dimen/activity_marginHalf"
+        android:id="@+id/safeSpaceReview_rating"/>
+
+    <!-- Comment -->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/safeSpaceReview_comment"/>
+
+    <!-- Name -->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_marginHalf"
+        android:textSize="@dimen/activity_text_small"
+        android:id="@+id/safeSpaceReview_name"/>
+
+
+
+</LinearLayout>

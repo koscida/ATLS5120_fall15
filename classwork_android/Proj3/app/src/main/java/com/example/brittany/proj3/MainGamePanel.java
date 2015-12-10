@@ -12,9 +12,11 @@ import android.view.SurfaceView;
 
 /**
  * Created by Brittany on 12/3/2015.
+ *
  */
-public class MainGamePanel extends SurfaceView implements
-        SurfaceHolder.Callback {
+public class MainGamePanel
+        extends SurfaceView
+        implements SurfaceHolder.Callback {
 
     private static final String TAG = MainGamePanel.class.getSimpleName();
 
@@ -23,6 +25,7 @@ public class MainGamePanel extends SurfaceView implements
 
     public MainGamePanel(Context context) {
         super(context);
+
         // adding the callback (this) to the surface holder to intercept events
         getHolder().addCallback(this);
 
@@ -37,8 +40,7 @@ public class MainGamePanel extends SurfaceView implements
     }
 
     @Override
-    public void surfaceChanged(SurfaceHolder holder, int format, int width,
-                               int height) {
+    public void surfaceChanged(SurfaceHolder holder, int format, int width, int height) {
     }
 
     @Override
@@ -69,6 +71,7 @@ public class MainGamePanel extends SurfaceView implements
     @Override
     public boolean onTouchEvent(MotionEvent event) {
         if (event.getAction() == MotionEvent.ACTION_DOWN) {
+
             // delegating event handling to the droid
             droid.handleActionDown((int)event.getX(), (int)event.getY());
 
@@ -98,7 +101,7 @@ public class MainGamePanel extends SurfaceView implements
     @Override
     protected void onDraw(Canvas canvas) {
         // fills the canvas with black
-        canvas.drawColor(Color.BLACK);
+        canvas.drawColor(Color.WHITE);
         droid.draw(canvas);
     }
 }

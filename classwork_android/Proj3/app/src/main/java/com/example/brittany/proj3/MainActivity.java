@@ -16,11 +16,12 @@ public class MainActivity extends AppCompatActivity {
         // requesting to turn the title OFF
         requestWindowFeature(Window.FEATURE_NO_TITLE);
 
+        // call on create
         super.onCreate(savedInstanceState);
-
 
         // making it full screen
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+
         // set our MainGamePanel as the View
         setContentView(new MainGamePanel(this));
         Log.d(TAG, "View added");

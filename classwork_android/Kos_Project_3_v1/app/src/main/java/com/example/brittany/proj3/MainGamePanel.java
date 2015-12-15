@@ -228,6 +228,7 @@ public class MainGamePanel
 
         // draw the line group
         lg.setDotSize(toolbar.getDotSize());
+        lg.setDotColor(toolbar.getDotColor());
         lg.draw(canvas);
 
         // draw the current point

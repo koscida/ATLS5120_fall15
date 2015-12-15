@@ -36,6 +36,10 @@ public class LineGroup {
         paintShape.setStrokeWidth(dotSize);
     }
 
+    public void setDotColor(int c) {
+        paintShape.setColor(c);
+    }
+
     public void addPoint(float x, float y) {
         pts[totalPoints] = x;
         pts[totalPoints+1] = y;

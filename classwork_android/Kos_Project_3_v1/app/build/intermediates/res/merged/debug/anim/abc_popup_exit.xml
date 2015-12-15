@@ -18,4 +18,4 @@
     <alpha android:fromAlpha="1.0" android:toAlpha="0.0"
            android:interpolator="@android:anim/decelerate_interpolator"
            android:duration="@integer/abc_config_activityShortDur" />
-</set><!-- From: file:/usr/local/google/buildbot/src/googleplex-android/mnc-supportlib-release/frameworks/support/v7/appcompat/res/anim/abc_popup_exit.xml --><!-- From: file:/C:/Users/Brit/Documents/Kos_ATLS5120_fall15/classwork_android/Proj3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/anim/abc_popup_exit.xml -->
+</set><!-- From: file:/usr/local/google/buildbot/src/googleplex-android/mnc-supportlib-release/frameworks/support/v7/appcompat/res/anim/abc_popup_exit.xml --><!-- From: file:/C:/Users/Brit/Documents/Kos_ATLS5120_fall15/classwork_android/Kos_Project_3_v1/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/anim/abc_popup_exit.xml -->
